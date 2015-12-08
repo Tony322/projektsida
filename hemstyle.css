@@ -48,10 +48,19 @@ text-align:center;
 /*slut övriga */
 
 /* In i container */
+#logoheader {
+width:20%;
+height:140px;
+background-color:cyan;
+float:left;
+
+}
+
 #header {
-width:100%;
+width:80%;
 height:140px;
 background-color:blue;
+float:left;
 
 }
 
