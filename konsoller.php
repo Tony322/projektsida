@@ -41,7 +41,7 @@ clear:both;
 			<ul>
 				<li><a href="xbox.php">XBOX</a></li>
 				<li><a href="nintendo.php">Nintendo</a></li>
-				<li><a href="sony.php">Sony</a></li>
+				<li><a href="playstation.php">Playstation</a></li>
 			</ul>
           </article>
         </main>
