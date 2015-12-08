@@ -7,6 +7,28 @@ margin-right: auto;
 }
 /* End Containers */
 
+/* BREADCRUMBS */
+#breadcrumbs {
+list-style: none;
+margin-top: 8px;
+margin-bottom: 10px;
+padding-left: 0px;
+margin-left: 15px;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#breadcrumbs li{
+float:left;
+}
+
+#breadcrumbs li a{
+padding-right: 0px;
+display: block;
+float: left;
+color: black;
+}
+/* END BREADCRUMBS  */
+
 
 /* övriga */
 body {
