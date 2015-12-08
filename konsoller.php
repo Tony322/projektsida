@@ -26,7 +26,7 @@ clear:both;
 		<nav id="mainnav">
 		<ul id="breadcrumbs">
 			<li><a href="index.php">Hem /</a></li>
-			<li><a href="konsoller.html">Konsoller /</a></li>
+			<li><a href="konsoller.php">Konsoller /</a></li>
 		</ul>
 		
 		

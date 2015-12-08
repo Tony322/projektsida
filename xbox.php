@@ -26,8 +26,8 @@ clear:both;
 		<nav id="mainnav">
 		<ul id="breadcrumbs">
 			<li><a href="index.php">Hem /</a></li>
-			<li><a href="konsoller.html">Konsoller /</a></li>
-			<li><a href="xbox.html">Xbox</a></li>
+			<li><a href="konsoller.php">Konsoller /</a></li>
+			<li><a href="xbox.php">Xbox</a></li>
 		</ul>
 		
 		
