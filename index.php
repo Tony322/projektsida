@@ -24,16 +24,16 @@ clear:both;
 		  		  
         <nav id="nav">
 			<ul id="sidenavlist">
-				<li><a href="index.html">Hem</a></li>
-				<li><a href="konsoller.html">Konsoller</a></li>
-				<li><a href="xbox.html">Om oss</a></li>
-				<li><a href="xbox.html">Villkor & skit</a></li>
+				<li><a href="index.php">Hem</a></li>
+				<li><a href="konsoller.php">Konsoller</a></li>
+				<li><a href="xbox.php">Om oss</a></li>
+				<li><a href="xbox.php">Villkor & skit</a></li>
 			</ul>
 		
 		</nav>
 		<nav id="mainnav">
 			<ul id="breadcrumbs">
-				<li><a href="index.html">Hem /</a></li>
+				<li><a href="index.php">Hem /</a></li>
 			</ul>
 		
 		
