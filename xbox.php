@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <link rel="stylesheet" style="text/css" href="hemstyle.css" >
     <meta charset="UTF-8" />
     <title>Coolaspelsidan - HEM</title>
     <style type="text/css">
@@ -12,7 +13,7 @@ color:#000000;
 clear:both;
 }
 </style>
-    <link rel="stylesheet" style="text/css" href="hemstyle.css" />
+    
   </head>
  
   <body>
@@ -25,7 +26,7 @@ clear:both;
         <nav id="nav">Lokal Navigation</nav>
 		<nav id="mainnav">
 		<ul id="breadcrumbs">
-			<li><a href="index.php">Hem /</a></li>
+			<li><a href="index.php">Hm /</a></li>
 			<li><a href="konsoller.php">Konsoller /</a></li>
 			<li><a href="xbox.php">Xbox</a></li>
 		</ul>
