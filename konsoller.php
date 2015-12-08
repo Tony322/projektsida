@@ -39,9 +39,9 @@ clear:both;
             <h1>Våra awesome konsoller!</h1>
 			<h2>Senaste skiten</h2>          
 			<ul>
-				<li><a href="xbox.html">XBOX</a></li>
-				<li><a href="nintendo.html">Nintendo</a></li>
-				<li><a href="sony.html">Sony</a></li>
+				<li><a href="xbox.php">XBOX</a></li>
+				<li><a href="nintendo.php">Nintendo</a></li>
+				<li><a href="sony.php">Sony</a></li>
 			</ul>
           </article>
         </main>
