@@ -26,7 +26,7 @@ clear:both;
         <nav id="nav">Lokal Navigation</nav>
 		<nav id="mainnav">
 		<ul id="breadcrumbs">
-			<li><a href="index.php">Hm /</a></li>
+			<li><a href="index.php">Hem /</a></li>
 			<li><a href="konsoller.php">Konsoller /</a></li>
 			<li><a href="xbox.php">Xbox</a></li>
 		</ul>
