@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <link rel="stylesheet" style="text/css" href="hemstyle.css" >
     <meta charset="UTF-8" />
     <title>Coolaspelsidan - HEM</title>
     <style type="text/css">
@@ -13,7 +12,7 @@ color:#000000;
 clear:both;
 }
 </style>
-    
+    <link rel="stylesheet" style="text/css" href="hemstyle.css" />
   </head>
  
   <body>

@@ -101,6 +101,28 @@ background-color:#232323;
 
 }
 
+#footer a{
+	color:#E61A1C;
+}
+
+#footer li{
+	padding-top:2px;
+}
+
+#footerlinkslist1 {
+	list-style-type:none;
+	float:right;
+	margin-top: 10px;
+	margin-right:35px;
+}
+
+#footerlinkslist2 {
+	list-style-type:none;
+	float:right;
+	margin-top: 10px;
+}
+
+
 #footerpics {
 table-layout:fixed;
 width:280px;
