@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <link rel="stylesheet" style="text/css" href="hemstyle.css" >
     <meta charset="UTF-8" />
     <title>Coolaspelsidan - HEM</title>
     <style type="text/css">
@@ -12,7 +13,7 @@ color:#000000;
 clear:both;
 }
 </style>
-    <link rel="stylesheet" style="text/css" href="hemstyle.css" />
+    
   </head>
  
   <body>
@@ -27,6 +28,7 @@ clear:both;
 		<ul id="breadcrumbs">
 			<li><a href="index.php">Hem /</a></li>
 			<li><a href="konsoller.php">Konsoller /</a></li>
+			<li><a href="playstation.php">Playstation</a></li>
 		</ul>
 		
 		
@@ -36,13 +38,9 @@ clear:both;
         <main>
           <article>
 		  
-            <h1>Våra awesome konsoller!</h1>
-			<h2>Senaste skiten</h2>          
-			<ul>
-				<li><a href="xbox.php">XBOX</a></li>
-				<li><a href="nintendo.php">Nintendo</a></li>
-				<li><a href="playstation.php">Playstation</a></li>
-			</ul>
+            <h1>XBOX</h1>
+			<h2> Coolaste playstation spelen</h2>          
+		  <p>TODO... Lista playstation spel..</p>
           </article>
         </main>
 		
