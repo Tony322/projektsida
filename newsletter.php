@@ -44,8 +44,8 @@ clear:both;
         <main>
           <article class="newsForm">
 			<?php
-			if(isset($_POST['email']) and isset($_POST['wantNews'])){
-				if($_POST['email'] != "") {
+			if(isset($_POST['email']) and isset($_POST['wantNews']) and isset($_POST['name']) and isset($_POST['lastName'])){
+				if($_POST['email'] != "" and $_POST['wantNews'] == "WANT") {
 					print('<h2>Tack för din registrering!</h2>');
 				}
 				
