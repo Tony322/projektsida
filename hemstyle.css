@@ -95,12 +95,12 @@ outline:1px solid black;
 
 }
 
-#header h1 {
-margin:0;
-padding-left: 25px;
-padding-top: 35px;
+#header p {
 font-size: 48px;
 color:#E61A1C;
+margin: 0px;
+padding-left:25px;
+padding-top:35px;
 
 }
 
