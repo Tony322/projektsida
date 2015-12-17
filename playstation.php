@@ -21,10 +21,14 @@ clear:both;
 	
 		<header id="logoheader">Logo</header>
 		<header id="header">Page Header</header>
+		
+		        <nav id="nav">
+		<?php
+		include('nav.html');
+		?>
+		</nav>
 
-		  		  
-        <nav id="nav">Lokal Navigation</nav>
-		<nav id="mainnav">
+				<nav id="mainnav">
 		<ul id="breadcrumbs">
 			<li><a href="index.php">Hem /</a></li>
 			<li><a href="konsoller.php">Konsoller /</a></li>
@@ -33,6 +37,8 @@ clear:both;
 		
 		
 		</nav>
+
+		  		  
 		
 		
         <main>
