@@ -18,10 +18,18 @@ clear:both;
   <body>
     <div id="container">
 	
-		<header id="logoheader">Logo</header>
-		<header id="header">Page Header</header>
+		<header id="logoheader">
+			<?php
+				include('headerlogo.html');
+			?>
+		</header>
+		<header id="header">
+			<?php
+				include('header.html');
+			?>
+		</header>
 
-		  			        <nav id="nav">
+		<nav id="nav">
 		<?php
 		include('nav.html');
 		?>
