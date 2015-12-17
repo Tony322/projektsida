@@ -113,6 +113,10 @@ outline:1px solid black;
 overflow:hidden;
 }
 
+#sidenavlist {
+ list-style: none;
+}
+
 #mainnav {
 width:80%;
 height:35px;
