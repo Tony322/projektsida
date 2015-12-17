@@ -65,6 +65,7 @@ fieldset {
 
 }
 
+
 /* end sid specifikt */
 
 
@@ -89,9 +90,10 @@ margin:auto;
 #header {
 width:80%;
 height:140px;
-background-color:#000000;
+background-image: url("bilder/banner.png");
 float:left;
 outline:1px solid black;
+
 
 }
 
@@ -104,6 +106,11 @@ padding-top:35px;
 
 }
 
+/*#header img {
+	height: auto;
+	width: 100%;
+}*/
+
 #nav {
 width:20%;
 height:630px;
@@ -111,19 +118,21 @@ float:left;
 background-color:#E4E4E4;
 outline:1px solid black;
 overflow:hidden;
-margin-top: 10px;
 }
 
 #sidenavlist {
  list-style: none;
  list-style-position:outside;
  margin: 0px;
+ margin-top: 34px;
  padding: 0px;
 }
 
 #sidenavlist li {
  border-bottom:1px solid black;
+ border-top:1px solid black;
  text-align: center;
+ margin-top: 10px;
 }
 
 #sidenavlist li a{
@@ -131,7 +140,7 @@ display: block;
 margin: 0px;
 padding: 5px;
 width: 100%;
-height: 24px;
+height: 100%;
 color:#E61A1C;
 text-decoration: none;
 font-family: Verdana;
@@ -145,7 +154,6 @@ font-weight: bold;
 
 
 #mainnav {
-margin-top: 10px;
 width:80%;
 height:35px;
 float:left;
@@ -168,8 +176,6 @@ width:100%;
 height:80px;
 float:left;
 background-color:#232323;
-margin-top: 8px;
-outline: 1px solid black;
 
 }
 
