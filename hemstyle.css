@@ -33,7 +33,7 @@ color: black;
 
 /* övriga */
 body {
-background-color:#E9E9E9;
+background-color: #444444;
 }
 
 p {
@@ -50,7 +50,6 @@ text-align:center;
 fieldset {
 	width: 500px;
 	border-radius: 5px;
-	//box-shadow: 10px black;
 }
 /*slut övriga */
 
