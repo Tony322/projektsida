@@ -48,8 +48,7 @@ clear:both;
         <main>
           <article>
 		  
-            <h1>Lorem ipsum dolor</h1>
-<h2> Göran was here!</h2>          
+            <h1>Lorem ipsum dolor</h1>         
 		  <p>Lorem ipsum ea sea quot nonumy, te per detracto sadipscing. Te nec assum percipit intellegam, dicam bonorum fabellas
             qui te. Prodesset signiferumque mea eu, eu homero denique perfecto eam, te vix cetero commune. Atqui omittam no nam. Te
             vis harum fuisset recusabo, ne has possim adolescens. Et eam noster quodsi apeirian. Ut has sint quaestio, ei usu
