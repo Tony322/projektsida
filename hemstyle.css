@@ -92,7 +92,7 @@ height:140px;
 background-image: url("bilder/banner.png");
 float:left;
 outline:1px solid black;
-text-shadow: 2px 2px 6px red;
+text-shadow: 2px 2px 6px #1a0000;
 text-transform: uppercase;
 letter-spacing: 10px;
 font-family: "courier new", courier;
