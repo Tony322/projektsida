@@ -13,6 +13,23 @@ clear:both;
 }
 </style>
     <link rel="stylesheet" style="text/css" href="hemstyle.css" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+
+			$("#slideshow > div:gt(0)").hide();
+
+			setInterval(function() {
+			  $('#slideshow > div:first')
+			    .fadeOut(1000)
+			    .next()
+			    .fadeIn(1000)
+			    .end()
+			    .appendTo('#slideshow');
+			},  3000);
+
+		});
+	</script>
   </head>
  
   <body>
@@ -47,6 +64,18 @@ clear:both;
 		
         <main>
           <article>
+		  
+	<div id="slideshow">
+		<div>
+			<img src="bilder/battle2.jpg">
+			</div>
+			<div>
+			<img src="bilder/justcause.jpg">
+		</div>
+		<div>
+			<img src="bilder/rainbow.jpg">
+		</div>
+	</div>
 		  
             <h1>Lorem ipsum dolor</h1>
 <h2> Göran was here!</h2>          
