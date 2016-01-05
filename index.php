@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8"/>
 	<meta name="robots" content="noindex, nofollow"/>
-    <title>Speldalen - Konsollspel till Xbox, Nintendo och Playstation.</title>
+    <title>Speldalen - Konsolspel till Xbox, Nintendo och Playstation.</title>
     <style type="text/css">
 body {
 background-color:#FFFFFF;
@@ -22,9 +22,9 @@ clear:both;
 
 			setInterval(function() {
 			  $('#slideshow > div:first')
-			    .fadeOut(1000)
+			    .fadeOut(0)
 			    .next()
-			    .fadeIn(1000)
+			    .fadeIn(0)
 			    .end()
 			    .appendTo('#slideshow');
 			},  3000);
@@ -58,8 +58,6 @@ clear:both;
 			<ul id="breadcrumbs">
 				<li><a href="index.php">Hem /</a></li>
 			</ul>
-		
-		
 		</nav>
 		
 		
