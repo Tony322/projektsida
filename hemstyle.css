@@ -81,6 +81,15 @@ fieldset {
 	outline:1px solid black;
 }
 
+.search {
+	display:inline;
+	height:100%;
+	float:right;
+	padding-top:15px;
+	margin-right:5px;
+}
+
+
 #logoheader img {
 	display:block;
 	width:auto;
@@ -98,6 +107,7 @@ fieldset {
 	text-transform: uppercase;
 	letter-spacing: 10px;
 	font-family: "courier new", courier;
+	
 }
 
 #header p {
