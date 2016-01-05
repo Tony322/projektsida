@@ -240,6 +240,7 @@ main {
 #slideshow {
     margin: 50px auto;
     float:left;
+	margin-left:18%;
     width: 610px;
     height: 216px;
     padding: 10px;
