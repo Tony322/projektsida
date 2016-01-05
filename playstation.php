@@ -3,7 +3,8 @@
   <head>
   <link rel="stylesheet" style="text/css" href="hemstyle.css" >
     <meta charset="UTF-8" />
-    <title>Coolaspelsidan - HEM</title>
+	<meta name="robots" content="noindex, nofollow"/>
+    <title>Speldalen - Playstation.</title>
     <style type="text/css">
 body {
 background-color:#FFFFFF;

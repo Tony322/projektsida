@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Coolaspelsidan - HEM</title>
+	<meta name="robots" content="noindex, nofollow"/>
+    <title>Speldalen - Konsollspel till Xbox, Nintendo och Playstation.</title>
     <style type="text/css">
 body {
 background-color:#FFFFFF;
