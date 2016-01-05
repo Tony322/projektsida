@@ -67,13 +67,13 @@ clear:both;
 		  
 	<div id="slideshow">
 		<div>
-			<img src="bilder/battle2.jpg">
+			<img src="bilder/battle2.jpg" alt="Battle">
 			</div>
 			<div>
-			<img src="bilder/justcause.jpg">
+			<img src="bilder/justcause.jpg" alt="justcause">
 		</div>
 		<div>
-			<img src="bilder/rainbow.jpg">
+			<img src="bilder/rainbow.jpg" alt="rainbow">
 		</div>
 	</div>
 		  
