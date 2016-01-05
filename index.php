@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
+	<meta name="robots" content="noindex, nofollow"/>
     <title>Coolaspelsidan - HEM</title>
     <style type="text/css">
 body {
