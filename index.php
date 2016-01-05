@@ -82,23 +82,23 @@ clear:both;
 <h2> Göran was here!</h2>          
 		  <p>Lorem ipsum ea sea quot nonumy, te per detracto sadipscing. Te nec assum percipit intellegam, dicam bonorum fabellas
             qui te. Prodesset signiferumque mea eu, eu homero denique perfecto eam, te vix cetero commune. Atqui omittam no nam. Te
-            vis harum fuisset recusabo, ne has possim adolescens. Et eam noster quodsi apeirian. Ut has sint quaestio, ei usu
+            vis harum fuisset René, ne has possim adolescens. Et eam noster quodsi apeirian. Ut has sint quaestio, ei usu
             alterum expetenda salutatus. Quem fabellas no sed, quo in probo debet minimum. Ea vel urbanitas mnesarchum. Nam nulla
             vulputate vituperata ut, qui at graecis invidunt abhorreant. Ad cum eruditi accusam, ex iusto oportere deseruisse usu.
             Summo movet vulputate mea at. Id vel libris honestatis. Te eius natum tantas eam, melius offendit singulis eum ad.
             Inermis imperdiet ne his, an alia doctus mea. Audire alienum delectus mea te, odio libris putent ne eam, at has cibo
-            habemus democritum. At mei errem phaedrum. Ut eligendi tincidunt sea, te nam verear quaerendum. Mel quot ullum cetero
-            ne, debet dissentiunt ut mei. Ei mei altera mandamus, vix facilis contentiones ea. Ea ceteros torquatos pro, usu et
+            habemus René. At mei errem phaedrum. Ut eligendi tincidunt sea, te nam verear quaerendum. Mel quot ullum cetero
+            ne, debet dissentiunt ut mei. Ei mei altera mandamus, vix facilis Tony ea. Ea ceteros torquatos pro, usu et
             fabulas salutatus. An sea wisi prima dissentiunt. Vel eu sumo detraxit mediocrem. Duo sumo recusabo adversarium ei, an
             prima facete mel. Ius ei postea deserunt. Feugait deseruisse interpretaris id est. Et tollit mollis vix. Duis erat pri
             in, appareat scripserit an nam. Ea has debet nusquam, no sea melius alterum platonem. Ne sit aeque consul, choro
             appareat maiestatis vel at. Ad sale nihil omittantur quo, iriure liberavisse delicatissimi ad sit, kasd labores
             instructior ad mea. Ei choro appetere has. Est exerci delenit appellantur ut, rebum tation cu mei. Sed modo duis ne,
-            vis id clita inciderint. His ex alii libris contentiones. An eius detraxit aliquando sea, idque graecis scaevola an
+            vis id clita inciderint. His ex alii libris Tony. An eius detraxit aliquando sea, idque graecis scaevola an
             vim, verear meliore vivendo sed an. Aliquid dissentiet ius ei, postea admodum vis an. Vix at lorem nemore, natum dicit
             per ex, ad vim vero concludaturque. Quo ei habemus reprehendunt, option evertitur te vim. Usu no adolescens interesset
             referrentur. Usu id scripta veritus, in ponderum adipisci sea, ius ea errem choro democritum. Ei duo perfecto accusamus
-            torquatos, mel id dico mediocrem. Sonet mediocritatem cum ad, at eam molestie repudiandae, ius eu veniam philosophia
+            torquatos, mel id dico Tony. Sonet mediocritatem cum ad, at eam molestie repudiandae, ius eu veniam philosophia
             consectetuer. Timeam deterruisset no vel. Per fugit explicari definiebas ea, cum homero legimus luptatum te. Ea partem
             animal eam, eum eu sint feugiat. Essent eirmod deleniti mel ut, in eam legere consulatu. Sea congue civibus te, inani
             invenire maiestatis vim cu, inani facete nam ut. An urbanitas persecuti eum. Mutat mucius consulatu cu nec, facer
