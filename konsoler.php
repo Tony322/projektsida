@@ -49,13 +49,23 @@ clear:both;
         <main>
           <article>
 		  
-            <h1>Våra awesome konsoller!</h1>
-			<h2>Senaste skiten</h2>          
-			<ul>
-				<li><a href="xbox/">Xbox</a></li>
-				<li><a href="nintendo/">Nintendo</a></li>
-				<li><a href="playstation/">Playstation</a></li>
-			</ul>
+            <h1>Välj bland de hetaste konsolerna för att komma till dess produkter.</h1>
+			<table class="konsollisttable">
+			<tr>
+				<td>
+					<p>Nintendo Wii/U</p>
+					<a href="nintendo/"><img src="bilder/nintendo.jpg" alt="Nintendo"/></a>
+				</td>
+				<td>
+					<p>Microsoft Xbox</p>
+					<a href="xbox/"><img src="bilder/xbox.jpg" alt="Xbox"/></a>
+				</td>
+				<td>
+					<p>Sony Playstation</p>
+					<a href="playstation/"><img src="bilder/ps4.jpg" alt="Playstation"/></a>
+				</td>
+			</tr>
+			</table>
           </article>
         </main>
 		

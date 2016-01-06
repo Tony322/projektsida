@@ -115,6 +115,25 @@ font-family: Verdana;
 }
 
 
+
+.konsollisttable {
+margin-left: auto;
+margin-right: auto;
+}
+.konsollisttable td {
+padding: 10px;
+}
+.konsollisttable img {
+height: 180px;
+width: auto;
+}
+
+.konsollisttable p {
+text-align:center;
+font-family: Verdana;
+}
+
+
 /* end sid specifikt */
 
 
