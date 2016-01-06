@@ -109,6 +109,14 @@ font-family: Verdana;
 
 
 /* In i container */
+.search {
+ 	display:inline;
+ 	height:100%;
+ 	float:right;
+ 	padding-top:15px;
+ 	margin-right:5px;
+ }
+
 #logoheader {
 	width:20%;
 	height:140px;
