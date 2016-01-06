@@ -103,7 +103,7 @@ clear:both;
 				7.2 Till dess äganderätten övergått till kunden, förbinder sig kunden att väl vårda produkterna och att inte utan speldal skriftliga medgivande vidtaga ändringar i dessa. Kunden äger inte rätt att överlåta eller upplåta nyttjanderätt till produkter som omfattas av ägarförbehåll.
 			</p>
 			<h3>8. Ångerrätt</h3>
-			</p>
+			<p>
 				8.1 Som kund hos oss har du rätt att ångra ditt köp om du meddelar detta till oss inom 45 dagar från den dagen du mottog produkten. Ångerrätten gäller dock inte datorprogram, operativsystem, spel, ljud- och bildupptagningar om förseglingen/plomberingen brutits. Vid köp av produkter i elektroniskt format t.ex. ljud- eller bildupptagning, spel, och programvarulicenser förlorar du rätten att ångra köpet efter att du mottagit den elektroniska försändelsen eller att licenskod/-information har gjorts tillgänglig. Du är ansvarig endast för varornas minskade värde till följd av annan hantering än vad som är nödvändigt för att fastställa varornas art, egenskaper och funktion. Snabbaste vägen för ångerköp är att följa våra instruktioner på <a href="/k/k.aspx?action=custserv&amp;topic=returns">den här länken</a>. Du kan inte ångra köpet på delar av en vara.
 				<br><br><strong>a) </strong>Handlar du som företagare har du 14 dagars ångerrätt och kan endast ångra ditt köp om produktens förpackning är obruten. Om en felrekommendation i kontakt med säljare är gjord gäller 14 dagars ångerrätt även vid bruten förpackning.
 				<br><strong>b) </strong>Använda hygienartiklar och kroppsnära produkter så som rakapparater, tandborstar, in-ear hörlurar/hörlurssnäckor m.fl. godkänns inte ångerköp av hygienskäl. Är förpackningen bruten men produkten oanvänd kan du däremot ångra köpet.
