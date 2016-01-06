@@ -76,10 +76,11 @@ clear:both;
 			</div>
 			
 			<section class="news">
-				<h3>NYHETER!!!</h3>
+				<h1>NYHETER!!!</h1>
 			</section>
 			<section class="offers">
-				<h3>ERBJUDANDEN!!</h3><p>5 FÖR PRISET AV EN!</p>
+				<h1>ERBJUDANDEN!!</h1>
+				<p>Mellandagsrea, köp 5 spel och få ett spel gratis.</p>
 			</section>
 			
         </main>

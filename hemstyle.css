@@ -48,13 +48,15 @@ body {
 }
 
 
-.news p, h3 {
+.news p, h1 {
 	padding:15px;
 	margin:0px;
+	font-size:15px;
 }
-.offers p, h3 {
+.offers p, h1 {
 	padding:15px;
 	margin:0px;
+	font-size:15px;
 }
 
 article h1 {
