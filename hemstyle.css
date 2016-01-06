@@ -36,6 +36,18 @@ body {
 	background-color: #444444;
 }
 
+.about p{
+	padding:15px;
+	margin:0px;
+	
+}
+.googleMap {
+	margin:15px;
+	background-color:black;
+    
+}
+
+
 .news p, h3 {
 	padding:15px;
 	margin:0px;
