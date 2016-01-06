@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
 	<meta name="robots" content="noindex, nofollow"/>
-    <title>Speldalen - Playstation.</title>
+    <title>Speldalen - Konsolspel till Xbox, Nintendo och Playstation.</title>
     <style type="text/css">
 body {
 background-color:#FFFFFF;
@@ -13,7 +13,7 @@ color:#000000;
 clear:both;
 }
 </style>
-    <link rel="stylesheet" style="text/css" href="hemstyle.css" >
+    <link rel="stylesheet" style="text/css" href="hemstyle.css" />
   </head>
  
   <body>
@@ -29,32 +29,33 @@ clear:both;
 				include('header.html');
 			?>
 		</header>
-		
-		        <nav id="nav">
+
+		<nav id="nav">
 		<?php
 		include('nav.html');
 		?>
-		</nav>
-
-				<nav id="mainnav">
+		</nav>	  
+        
+		<nav id="mainnav">
 		<ul id="breadcrumbs">
 			<li><a href="index.php">Hem /</a></li>
-			<li><a href="konsoller.php">Konsoller /</a></li>
-			<li><a href="playstation.php">Playstation</a></li>
+			<li><a href="konsoler.php">Konsoler /</a></li>
 		</ul>
 		
 		
 		</nav>
-
-		  		  
 		
 		
         <main>
           <article>
 		  
-            <h1>XBOX</h1>
-			<h2> Coolaste playstation spelen</h2>          
-		  <p>TODO... Lista playstation spel..</p>
+            <h1>Våra awesome konsoller!</h1>
+			<h2>Senaste skiten</h2>          
+			<ul>
+				<li><a href="xbox/">Xbox</a></li>
+				<li><a href="nintendo/">Nintendo</a></li>
+				<li><a href="playstation/">Playstation</a></li>
+			</ul>
           </article>
         </main>
 		

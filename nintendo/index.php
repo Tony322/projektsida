@@ -13,7 +13,7 @@ color:#000000;
 clear:both;
 }
 </style>
-    <link rel="stylesheet" style="text/css" href="hemstyle.css" />
+    <link rel="stylesheet" style="text/css" href="../hemstyle.css" />
   </head>
  
   <body>
@@ -38,9 +38,9 @@ clear:both;
         
 		<nav id="mainnav">
 		<ul id="breadcrumbs">
-			<li><a href="index.php">Hem /</a></li>
-			<li><a href="konsoller.php">Konsoller /</a></li>
-			<li><a href="nintendo.php">nintendo</a></li>
+			<li><a href="../index.php">Hem /</a></li>
+			<li><a href="../konsoler.php">Konsoler /</a></li>
+			<li><a href="index.php">Nintendo</a></li>
 		</ul>
 		
 		
@@ -49,10 +49,26 @@ clear:both;
 		
         <main>
           <article>
-		  
-            <h1>Nintendo</h1>
-			<h2>Coolaste nintendo spelen</h2>          
-		  <p>TODO... Lista nintendo spel..</p>
+			<h1>Nintendo</h1>
+			<table class="productlisttable">
+			<tr>
+				<td>
+					<p>Just Cause 3</p>
+					<a href="products/spel1.php"><img src="../bilder/nintendo/jc3.jpg" alt="Just Cause 3"/></a>
+				</td>
+				<td>
+					<p>Nått annat spel</p>
+					<img src="../bilder/nintendo/jc3.jpg" alt="Just Cause 3"/>
+				</td>
+				<td>
+					<p>Nått annat spel</p>
+					<img src="../bilder/nintendo/jc3.jpg" alt="Just Cause 3"/>
+				</td>
+			</tr>
+			</table>
+			
+			
+			
           </article>
         </main>
 		

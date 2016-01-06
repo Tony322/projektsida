@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
 	<meta name="robots" content="noindex, nofollow"/>
-    <title>Speldalen - Xbox.</title>
+    <title>Speldalen - Nintendo - Just Cause 3.</title>
     <style type="text/css">
 body {
 background-color:#FFFFFF;
@@ -13,14 +13,11 @@ color:#000000;
 clear:both;
 }
 </style>
-    <link rel="stylesheet" style="text/css" href="hemstyle.css" />
+    <link rel="stylesheet" style="text/css" href="../../hemstyle.css" />
   </head>
  
   <body>
     <div id="container">
-
-			  		  
-
 	
 		<header id="logoheader">
 			<?php
@@ -33,18 +30,17 @@ clear:both;
 			?>
 		</header>
 
-		  		  
-        <nav id="nav">
+		<nav id="nav">
 		<?php
 		include('nav.html');
 		?>
-		</nav>
-
-				<nav id="mainnav">
+		</nav>  		  
+        
+		<nav id="mainnav">
 		<ul id="breadcrumbs">
-			<li><a href="index.php">Hem /</a></li>
-			<li><a href="konsoller.php">Konsoller /</a></li>
-			<li><a href="xbox.php">Xbox</a></li>
+			<li><a href="../../index.php">Hem /</a></li>
+			<li><a href="../../konsoler.php">Konsoler /</a></li>
+			<li><a href="../index.php">Nintendo</a></li>
 		</ul>
 		
 		
@@ -52,11 +48,24 @@ clear:both;
 		
 		
         <main>
-          <article>
+          <article class="product">
+			<h2>Just Cause 3</h2>
+			<img src="../../bilder/nintendo/jc3.jpg" alt="Just Cause 3"/>
+			<ul>
+				<li>Genere: Action/Freeroam</li>
+				<li>Multiplayer: Ja</li>
+				<li>Releasedatum: 2014</li>
+				<li>I lager: Ja</li>
+			
+			</ul>
+					
+		  <p>Actionfyllt GTA liknande spel på steorider. för 15 år och över. <br>
+		  spelet går ut på att göra vad man vill i en öppen värld med hjälp av en hookshot!</p>
 		  
-            <h1>XBOX</h1>
-			<h2> Coolaste xbox spelen</h2>          
-		  <p>TODO... Lista xbox spel..</p>
+		  <h4>Pris: 299:-</h4>
+		  <button type="submit">Köp</button>
+		  
+		  
           </article>
         </main>
 		
