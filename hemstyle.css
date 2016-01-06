@@ -14,7 +14,7 @@
 	margin-bottom: 10px;
 	padding-left: 0px;
 	margin-left: 15px;
-	font-family: Arial, cursive, sans-serif;
+	font-family: Verdana, cursive, sans-serif;
 	font-weight: bold;
 }
 
@@ -32,10 +32,8 @@
 
 /* GLOBALA REGLER */
 h1, h2, h3, h4, p {
-	font-family: Verdana;
+	font-family: Verdana,sans-serif,Arial;
 }
-
-
 /* END GLOBALA REGLER */
 
 
@@ -121,7 +119,7 @@ width: auto;
 
 .productlisttable p {
 text-align:center;
-font-family: Verdana;
+font-family:Verdana,sans-serif,Arial;
 }
 
 
@@ -140,7 +138,7 @@ width: auto;
 
 .konsollisttable p {
 text-align:center;
-font-family: Verdana;
+font-family:Verdana,sans-serif,Arial;
 }
 
 
@@ -182,7 +180,7 @@ font-family: Verdana;
 	text-shadow: 2px 2px 6px #1a0000;
 	text-transform: uppercase;
 	letter-spacing: 10px;
-	font-family: "courier new", courier;
+	font-family: "courier new", courier, Verdana, sans-serif, Arial;
 }
 
 #header p {
@@ -229,7 +227,7 @@ font-family: Verdana;
 	height: 24px;
 	color:#E61A1C;
 	text-decoration: none;
-	font-family: Verdana;
+	font-family:Verdana,sans-serif,Arial;
 }
 
 #sidenavlist li a:hover{
