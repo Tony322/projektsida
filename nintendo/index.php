@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
 	<meta name="robots" content="noindex, nofollow"/>
+	<meta name=“description” content="Speldalen - Köp senaste konsolspelen till Nintendo Wii U/Wii U i Borlänge till de senaste konsolerna"/>
     <title>Speldalen - Nintendo</title>
     <style type="text/css">
 body {
@@ -73,6 +74,8 @@ clear:both;
 				<td>
 					<p>Mariokart 8</p>
 					<a href="products/mariokart.php"><img src="../bilder/nintendo/mariokart.jpg" alt="Mariokart"/></a>
+				</td>
+				<td>
 				</td>
 			</tr>
 			</table>
