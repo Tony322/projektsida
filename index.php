@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8"/>
 	<meta name="robots" content="noindex, nofollow"/>
+	<meta name="description" content="Speldalen, vi har dom senaste spelen till dom senaste konsolerna. Beställ bekvämt hemifrån på hemsidan eller direkt i vår lokala butik i Borlänge. Vi har spel till Sony playstion, Nicrosoft Xbox och Nintendo WiiU."/>
     <title>Speldalen - Konsolspel till Xbox, Nintendo och Playstation.</title>
     <style type="text/css">
 body {
@@ -76,10 +77,11 @@ clear:both;
 			</div>
 			
 			<section class="news">
-				<h3>NYHETER!!!</h3>
+				<h1>Nyheter till Xbox, Nintendo och Playstation!</h1>
 			</section>
 			<section class="offers">
-				<h3>ERBJUDANDEN!!</h3><p>5 FÖR PRISET AV EN!</p>
+				<h1>ERBJUDANDEN!!</h1>
+				<p>Mellandagsrea:<br>Köp 5 spel och få ett spel på köpet.<br>Köp tio spel och betala för 15!</p>
 			</section>
 			
         </main>
