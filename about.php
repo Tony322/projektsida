@@ -71,7 +71,7 @@ Tag kontakt med oss så hjälper vi dig att finna det du söker.
 <a href="mailto:info@speldalen.se?Subject=Hej!" target="_top">Skicka Mail</a>
 </p>
 			
-		 
+		 </div>
 		 </article>
         </main>
 		
