@@ -39,7 +39,7 @@ clear:both;
 		<nav id="mainnav">
 		<ul id="breadcrumbs">
 			<li><a href="index.php">Hem /</a></li>
-			<li><a href="konsoler.php">Konsoler /</a></li>
+			<li><a href="konsoler.php">Konsoler</a></li>
 		</ul>
 		
 		
