@@ -77,11 +77,11 @@ clear:both;
 			</div>
 			
 			<section class="news">
-				<h1>NYHETER!!!</h1>
+				<h1>Nyheter till Xbox, Nintendo och Playstation!</h1>
 			</section>
 			<section class="offers">
 				<h1>ERBJUDANDEN!!</h1>
-				<p>Mellandagsrea, köp 5 spel och få ett spel gratis.</p>
+				<p>Mellandagsrea:<br>Köp 5 spel och få ett spel på köpet.<br>Köp tio spel och betala för 15!</p>
 			</section>
 			
         </main>
