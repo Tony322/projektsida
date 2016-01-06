@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
 	<meta name="robots" content="noindex, nofollow"/>
-    <title>Speldalen - Nintendo - Mariokart</title>
+    <title>Speldalen - Playstation - Call of duty 4</title>
     <style type="text/css">
 body {
 background-color:#FFFFFF;
@@ -40,7 +40,7 @@ clear:both;
 		<ul id="breadcrumbs">
 			<li><a href="../../index.php">Hem /</a></li>
 			<li><a href="../../konsoler.php">Konsoler /</a></li>
-			<li><a href="../index.php">Nintendo</a></li>
+			<li><a href="../index.php">Playstation</a></li>
 		</ul>
 		
 		
@@ -49,20 +49,20 @@ clear:both;
 		
         <main>
           <article class="product">
-			<h2>Mariokart 8</h2>
-			<img src="../../bilder/nintendo/mariokart.jpg" alt="Mariokart 8"/>
+			<h2>Call of duty</h2>
+			<img src="../../bilder/playstation/callofduty.jpg" alt="Call of duty 4"/>
 			<ul>
-				<li>Genere: Racing</li>
+				<li>Genere: FPS / Action</li>
 				<li>Multiplayer: Ja</li>
-				<li>Releasedatum: 2014</li>
-				<li>I lager: Ja</li>
-			
+				<li>Releasedatum: 2016</li>
+				<li>I lager: Nej</li>
 			</ul>
 					
-		  <p>Marioklart i all ära, tävla och ha kul med familjen!. <br>
-		  Upp till 4 spelare lokalt samtidigt eller online mot 8 andra!</p>
+			<p>Call of Duty 3 utspelar sig som vanligt i andra världskriget fast<br>
+			med tre nya kampanjer. En kanadensisk, en fransk och en polsk, förutom<br>
+			de vanliga amerikanska och brittiska kampanjerna.</p>
 		  
-		  <h4>Pris: 499:-</h4>
+		  <h4>Pris: 439:-</h4>
 		  <button type="submit">Köp</button>
 		  
 		  

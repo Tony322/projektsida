@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
 	<meta name="robots" content="noindex, nofollow"/>
-    <title>Speldalen - Nintendo - Kirby</title>
+    <title>Speldalen - Playstation - Fallout 4</title>
     <style type="text/css">
 body {
 background-color:#FFFFFF;
@@ -40,7 +40,7 @@ clear:both;
 		<ul id="breadcrumbs">
 			<li><a href="../../index.php">Hem /</a></li>
 			<li><a href="../../konsoler.php">Konsoler /</a></li>
-			<li><a href="../index.php">Nintendo</a></li>
+			<li><a href="../index.php">Playstation</a></li>
 		</ul>
 		
 		
@@ -49,20 +49,20 @@ clear:both;
 		
         <main>
           <article class="product">
-			<h2>Kirby</h2>
-			<img src="../../bilder/nintendo/kirby.jpg" alt="Kirby"/>
+			<h2>Fallout 4</h2>
+			<img src="../../bilder/playstation/fallout4.jpg" alt="Fallout 4"/>
 			<ul>
-				<li>Genere: RPG/Sidescroller</li>
+				<li>Genere: RPG/FPS</li>
 				<li>Multiplayer: Nej</li>
-				<li>Releasedatum: 2014</li>
+				<li>Releasedatum: 2015</li>
 				<li>I lager: Ja</li>
 			
 			</ul>
 					
-		  <p>Sidescroller kul med klassiska karaktären Kirby. <br>
-		  Spännande äventyr väntar!</p>
+		  <p>Enormt öppen-värld RPG spel med många äventyr. <br>
+		  Överlev i en värld efter kärnvapenkrig.</p>
 		  
-		  <h4>Pris: 399:-</h4>
+		  <h4>Pris: 449:-</h4>
 		  <button type="submit">Köp</button>
 		  
 		  

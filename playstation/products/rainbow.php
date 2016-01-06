@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
 	<meta name="robots" content="noindex, nofollow"/>
-    <title>Speldalen - Nintendo - Amiibo</title>
+    <title>Speldalen - Playstation - Rainbow Six</title>
     <style type="text/css">
 body {
 background-color:#FFFFFF;
@@ -40,7 +40,7 @@ clear:both;
 		<ul id="breadcrumbs">
 			<li><a href="../../index.php">Hem /</a></li>
 			<li><a href="../../konsoler.php">Konsoler /</a></li>
-			<li><a href="../index.php">Nintendo</a></li>
+			<li><a href="../index.php">Playstation</a></li>
 		</ul>
 		
 		
@@ -49,20 +49,19 @@ clear:both;
 		
         <main>
           <article class="product">
-			<h2>Amiibo</h2>
-			<img src="../../bilder/nintendo/amiibo.jpg" alt="Amiibo"/>
+			<h2>Rainbow Six</h2>
+			<img src="../../bilder/playstation/rainbow.jpg" alt="Rainbow"/>
 			<ul>
-				<li>Genere: Sidescroller/Platformer</li>
-				<li>Multiplayer: Nej</li>
+				<li>Genere: FPS / Action</li>
+				<li>Multiplayer: Ja</li>
 				<li>Releasedatum: 2015</li>
 				<li>I lager: Ja</li>
 			
 			</ul>
 					
-		  <p>Sidescroller för alla åldrar! <br>
-		  Kul spel!</p>
+		  <p>Ett strategiskt 5vs5 skjuta / rescue spel.</p>
 		  
-		  <h4>Pris: 199:-</h4>
+		  <h4>Pris: 379:-</h4>
 		  <button type="submit">Köp</button>
 		  
 		  

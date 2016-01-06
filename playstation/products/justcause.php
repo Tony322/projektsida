@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
 	<meta name="robots" content="noindex, nofollow"/>
-    <title>Speldalen - Nintendo - Lego Jurassic World</title>
+    <title>Speldalen - Playstation - Just Cause 3</title>
     <style type="text/css">
 body {
 background-color:#FFFFFF;
@@ -40,7 +40,7 @@ clear:both;
 		<ul id="breadcrumbs">
 			<li><a href="../../index.php">Hem /</a></li>
 			<li><a href="../../konsoler.php">Konsoler /</a></li>
-			<li><a href="../index.php">Nintendo</a></li>
+			<li><a href="../index.php">Playstation</a></li>
 		</ul>
 		
 		
@@ -49,19 +49,19 @@ clear:both;
 		
         <main>
           <article class="product">
-			<h2>Lego Jurassic World</h2>
-			<img src="../../bilder/nintendo/jurassic.jpg" alt="Lego Jurassic World"/>
+			<h2>Just Cause 3</h2>
+			<img src="../../bilder/playstation/jc3.jpg" alt="Just Cause 3"/>
 			<ul>
-				<li>Genere: RPG</li>
-				<li>Multiplayer: Nej</li>
-				<li>Releasedatum: 2014</li>
+				<li>Genere: Action/Sandbox</li>
+				<li>Multiplayer: Ja</li>
+				<li>Releasedatum: 2015</li>
 				<li>I lager: Ja</li>
 			
 			</ul>
 					
-		  <p>RPG som är roligt för alla åldrar. Spännande äventyr i dinosauriernas jungel.</p>
+		  <p>En enorm lekplats av samma typ som Grand Theft Auto serien, fast på steorieder och en hookshot!</p>
 		  
-		  <h4>Pris: 299:-</h4>
+		  <h4>Pris: 199:-</h4>
 		  <button type="submit">Köp</button>
 		  
 		  
