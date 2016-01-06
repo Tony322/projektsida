@@ -77,8 +77,17 @@ clear:both;
 			</div>
 			
 			<section class="news">
+			
 				<h1>Nyheter till Xbox, Nintendo och Playstation!</h1>
-			</section>
+				 <p><strong>Nyheter till XBOX ONE</strong><br>
+				  <a href="http://www.mards.se/xbox/products/blackops.php">Call of Duty- Black OPS !</a><br><br>
+				  <strong>Nyheter till Playstation</strong><br>
+				  <a href="http://mards.se/playstation/products/battlefront.php">Battlefront!</a><br><br>
+				 <strong>Nyheter till Nintendo</strong><br>
+				 <a href="http://mards.se/nintendo/products/mariokart.php">Mariokart 8!</a><br>
+				</p>
+				</section>
+				
 			<section class="offers">
 				<h1>ERBJUDANDEN!!</h1>
 				<p>Mellandagsrea:<br>Köp 5 spel och få ett spel på köpet.<br>Köp tio spel och betala för 15!</p>

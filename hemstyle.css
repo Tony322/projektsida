@@ -58,6 +58,7 @@ body {
 	padding:15px;
 	margin:0px;
 	font-size:15px;
+	display:
 }
 .offers p, h1 {
 	padding:15px;
@@ -237,12 +238,14 @@ font-family:Verdana,sans-serif,Arial;
 }
 
 .news{
+	
 	border-radius: 0 25px 0 25px;
 	box-shadow: 0 0 20px rgba(0,0,0,0.4);
 	width: 45%;
 	height: 200px;
 	float:left;
 	margin-left:2.5%;
+	overflow:auto;
 }
 .offers{
 	border-radius: 0 25px 0 25px;
