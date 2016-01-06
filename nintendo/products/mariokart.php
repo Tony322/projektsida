@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
 	<meta name="robots" content="noindex, nofollow"/>
-    <title>Speldalen - Nintendo</title>
+    <title>Speldalen - Nintendo - Mariokart</title>
     <style type="text/css">
 body {
 background-color:#FFFFFF;
@@ -13,7 +13,7 @@ color:#000000;
 clear:both;
 }
 </style>
-    <link rel="stylesheet" style="text/css" href="../hemstyle.css" />
+    <link rel="stylesheet" style="text/css" href="../../hemstyle.css" />
   </head>
  
   <body>
@@ -30,7 +30,7 @@ clear:both;
 			?>
 		</header>
 
-				        <nav id="nav">
+		<nav id="nav">
 		<?php
 		include('nav.html');
 		?>
@@ -38,9 +38,9 @@ clear:both;
         
 		<nav id="mainnav">
 		<ul id="breadcrumbs">
-			<li><a href="../index.php">Hem /</a></li>
-			<li><a href="../konsoler.php">Konsoler /</a></li>
-			<li><a href="index.php">Nintendo</a></li>
+			<li><a href="../../index.php">Hem /</a></li>
+			<li><a href="../../konsoler.php">Konsoler /</a></li>
+			<li><a href="../index.php">Nintendo</a></li>
 		</ul>
 		
 		
@@ -48,37 +48,24 @@ clear:both;
 		
 		
         <main>
-          <article>
-			<h1>Nintendo</h1>
-			<table class="productlisttable">
-			<tr>
-				<td>
-					<p>Amiibo</p>
-					<a href="products/amiibo.php"><img src="../bilder/nintendo/amiibo.jpg" alt="Amiibo"/></a>
-				</td>
-				<td>
-					<p>Lego Jurassic</p>
-					<a href="products/jurassic.php"><img src="../bilder/nintendo/jurassic.jpg" alt="Jurassic"/></a>
-				</td>
-				<td>
-					<p>Just Dance</p>
-					<a href="products/justdance.php"><img src="../bilder/nintendo/justdance.jpg" alt="Just Dance"/></a>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<p>Kirby</p>
-					<a href="products/kirby.php"><img src="../bilder/nintendo/kirby.jpg" alt="Kirby"/></a>
-				</td>
-				<td>
-					<p>Mariokart 8</p>
-					<a href="products/mariokart.php"><img src="../bilder/nintendo/mariokart.jpg" alt="Mariokart"/></a>
-				</td>
-			</tr>
-			</table>
+          <article class="product">
+			<h2>Mariokart 8</h2>
+			<img src="../../bilder/nintendo/mariokart.jpg" alt="Mariokart 8"/>
+			<ul>
+				<li>Genere: Racing</li>
+				<li>Multiplayer: Ja</li>
+				<li>Releasedatum: 2014</li>
+				<li>I lager: Ja</li>
 			
-			
-			
+			</ul>
+					
+		  <p>Marioklart i all ära, tävla och ha kul med familjen!. <br>
+		  Upp till 4 spelare lokalt samtidigt eller online mot 8 andra!</p>
+		  
+		  <h4>Pris: 499:-</h4>
+		  <button type="submit">Köp</button>
+		  
+		  
           </article>
         </main>
 		
