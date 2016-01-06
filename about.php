@@ -57,7 +57,7 @@ Tag kontakt med oss så hjälper vi dig att finna det du söker.
 </p>
 
 <div class="karta">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2337.367302365552!2d15.410442422032398!3d60.48674594492901!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x749c3742378bbfa7!2sH%C3%B6gskolan+Dalarna!5e0!3m2!1ssv!2sus!4v1452075562705" width="400" height="250" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2337.367302365552!2d15.410442422032398!3d60.48674594492901!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x749c3742378bbfa7!2sH%C3%B6gskolan+Dalarna!5e0!3m2!1ssv!2sus!4v1452075562705" width="400" height="250"  allowfullscreen></iframe>
 
 		 <p> Speldalen AB
 		 <br>
