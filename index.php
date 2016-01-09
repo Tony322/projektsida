@@ -75,11 +75,15 @@ clear:both;
 					<img src="bilder/rainbow.jpg" alt="rainbow">
 				</div>
 			</div>
+			<h2 class="welcome">Välkommen till Speldalen!</h2>
+			<p class="welcome">Hos oss finner du spel till de populäraste spelkonsolerna, som just nu är Microsoft Xbox, Nintendo Wii och Sony Playstation.</p>
+			<br>
+
 			
 			<section class="news">
 			
 				<h1>Nyheter till Xbox, Nintendo och Playstation!</h1>
-				 <p><strong>Nyheter till XBOX ONE</strong><br>
+				 <p><strong>Nyheter till Xbox One</strong><br>
 				  <a href="http://www.mards.se/xbox/products/blackops.php">Call of Duty- Black OPS !</a><br><br>
 				  <strong>Nyheter till Playstation</strong><br>
 				  <a href="http://mards.se/playstation/products/battlefront.php">Battlefront!</a><br><br>
@@ -89,7 +93,7 @@ clear:both;
 				</section>
 				
 			<section class="offers">
-				<h1>ERBJUDANDEN!!</h1>
+				<h1>Erbjudanden!</h1>
 				<p>Mellandagsrea:<br>Köp 5 spel och få ett spel på köpet.<br>Köp tio spel och betala för 15!</p>
 			</section>
 			

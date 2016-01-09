@@ -183,7 +183,7 @@ article h1 {
 
 /* BILDSPEL */
 #slideshow {
-    margin: 50px auto;
+    margin: 25px auto;
     float:left;
 	margin-left:18%;
     width: 610px;
@@ -238,6 +238,12 @@ article h1 {
 	margin:0px;
 	font-size:15px;
 }
+.welcome {
+margin: 0px;
+padding: 0px;
+text-align: center;
+}
+
 /* END HEM/NYHETER */
 
 
