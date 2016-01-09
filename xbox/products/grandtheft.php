@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
 	<meta name="robots" content="noindex, nofollow"/>
-    <title>Speldalen - XBOX - Battlefront</title>
+    <title>Speldalen - Xbox - Battlefront</title>
     <style type="text/css">
 body {
 background-color:#FFFFFF;
@@ -19,25 +19,25 @@ clear:both;
   <body>
     <div id="container">
 	
-		<header id="logoheader">
+		<header class="logoheader">
 			<?php
 				include('headerlogo.html');
 			?>
 		</header>
-		<header id="header">
+		<header class="header">
 			<?php
 				include('header.html');
 			?>
 		</header>
 
-		<nav id="nav">
+		<nav class="nav">
 		<?php
 		include('nav.html');
 		?>
 		</nav>  		  
         
-		<nav id="mainnav">
-		<ul id="breadcrumbs">
+		<nav class="mainnav">
+		<ul class="breadcrumbs">
 			<li><a href="../../index.php">Hem /</a></li>
 			<li><a href="../../konsoler.php">Konsoler /</a></li>
 			<li><a href="../index.php">Xbox</a></li>
@@ -69,7 +69,7 @@ clear:both;
           </article>
         </main>
 		
-        <footer id="footer">
+        <footer class="footer">
 			<?php
 			include('footer.html');
 			?>

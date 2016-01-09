@@ -37,26 +37,26 @@ clear:both;
   <body>
     <div id="container">
 	
-		<header id="logoheader">
+		<header class="logoheader">
 			<?php
 				include('headerlogo.html');
 			?>
 		</header>
-		<header id="header">
+		<header class="header">
 			<?php
 				include('header.html');
 			?>
 		</header>
 
 		  		  
-        <nav id="nav">
+        <nav class="nav">
 		<?php
 		include('nav.html');
 		?>
 		
 		</nav>
-		<nav id="mainnav">
-			<ul id="breadcrumbs">
+		<nav class="mainnav">
+			<ul class="breadcrumbs">
 				<li><a href="index.php">Hem /</a></li>
 			</ul>
 		</nav>
@@ -95,7 +95,7 @@ clear:both;
 			
         </main>
 		
-        <footer id="footer">
+        <footer class="footer">
 		<?php
 		include('footer.html');
 		?>

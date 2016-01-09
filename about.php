@@ -19,28 +19,28 @@ clear:both;
   <body>
     <div id="container">
 	
-		<header id="logoheader">
+		<header class="logoheader">
 			<?php
 				include('headerlogo.html');
 			?>
 		</header>
-		<header id="header">
+		<header class="header">
 			<?php
 				include('header.html');
 			?>
 		</header>
 
 		  		  
-        <nav id="nav">
+        <nav class="nav">
 		<?php
 		include('nav.html');
 		?>
 		
 		</nav>
-		<nav id="mainnav">
-			<ul id="breadcrumbs">
+		<nav class="mainnav">
+			<ul class="breadcrumbs">
 				<li><a href="index.php">Hem /</a></li>
-				<li><a href="newsletter.php">Nyhetsbrev</a></li>
+				<li><a href="about.php">Om oss</a></li>
 			</ul>
 		
 		
@@ -68,14 +68,14 @@ Tag kontakt med oss så hjälper vi dig att finna det du söker.
 			Tel: 0243-111 222
 			<br>
 			Maila oss
-<a href="mailto:info@speldalen.se?Subject=Hej!" target="_top">Skicka Mail</a>
+<a href="mailto:h15gorja@du.se?Subject=Hej!" target="_top">Skicka Mail</a>
 </p>
 			
 		 </div>
 		 </article>
         </main>
 		
-        <footer id="footer">
+        <footer class="footer">
 		<?php
 		include('footer.html');
 		?>
