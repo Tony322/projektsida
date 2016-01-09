@@ -84,11 +84,11 @@ clear:both;
 			
 				<h1>Nyheter till Xbox, Nintendo och Playstation!</h1>
 				 <p><strong>Nyheter till Xbox One</strong><br>
-				  <a href="http://www.mards.se/xbox/products/blackops.php">Call of Duty- Black OPS !</a><br><br>
+				  <a href="xbox/products/callofduty.php">Call of Duty- Black OPS !</a><br><br>
 				  <strong>Nyheter till Playstation</strong><br>
-				  <a href="http://mards.se/playstation/products/battlefront.php">Battlefront!</a><br><br>
+				  <a href="/playstation/products/battlefront.php">Battlefront!</a><br><br>
 				 <strong>Nyheter till Nintendo</strong><br>
-				 <a href="http://mards.se/nintendo/products/mariokart.php">Mariokart 8!</a><br>
+				 <a href="/nintendo/products/mariokart.php">Mariokart 8!</a><br>
 				</p>
 				</section>
 				
