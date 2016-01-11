@@ -54,15 +54,15 @@ clear:both;
 			<tr>
 				<td>
 					<p>Nintendo Wii/U</p>
-					<a href="nintendo/"><img src="bilder/nintendo.jpg" alt="Nintendo"/></a>
+					<a href="nintendo/"><img src="bilder/nintendo.jpg" alt="Nintendo konsol"/></a>
 				</td>
 				<td>
 					<p>Microsoft Xbox</p>
-					<a href="xbox/"><img src="bilder/xbox.jpg" alt="Xbox"/></a>
+					<a href="xbox/"><img src="bilder/xbox.jpg" alt="Xbox konsol"/></a>
 				</td>
 				<td>
 					<p>Sony Playstation</p>
-					<a href="playstation/"><img src="bilder/ps4.jpg" alt="Playstation"/></a>
+					<a href="playstation/"><img src="bilder/ps4.jpg" alt="Playstation konsol"/></a>
 				</td>
 			</tr>
 			</table>

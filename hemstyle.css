@@ -80,7 +80,9 @@
 	margin: 0px;
 	padding-left:25px;
 	padding-top:35px;
-
+}
+.header a{
+	text-decoration:none;
 }
 /* END HEADER */
 
