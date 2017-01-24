@@ -14,6 +14,8 @@ color:#000000;
 clear:both;
 }
 </style>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/
+css3-mediaqueries.js"></script> 
     <link rel="stylesheet" style="text/css" href="../hemstyle.css" />
   </head>
  

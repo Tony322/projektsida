@@ -15,6 +15,8 @@ clear:both;
 }
 </style>
     <link rel="stylesheet" style="text/css" href="../hemstyle.css" />
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/
+css3-mediaqueries.js"></script> 
   </head>
  
   <body>

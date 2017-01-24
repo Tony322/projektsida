@@ -32,6 +32,8 @@ clear:both;
 
 		});
 	</script>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  
   </head>
  
   <body>
@@ -81,14 +83,11 @@ clear:both;
 
 			
 			<section class="news">
-			
 				<h1>Nyheter till Xbox, Nintendo och Playstation!</h1>
 				 <p><strong>Nyheter till Xbox One</strong><br>
 				  <a href="xbox/products/callofduty.php">Call of Duty- Black OPS !</a><br><br>
 				  <strong>Nyheter till Playstation</strong><br>
 				  <a href="/playstation/products/battlefront.php">Battlefront!</a><br><br>
-				 <strong>Nyheter till Nintendo</strong><br>
-				 <a href="/nintendo/products/mariokart.php">Mariokart 8!</a><br>
 				</p>
 				</section>
 				
