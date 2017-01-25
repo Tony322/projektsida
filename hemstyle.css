@@ -10,13 +10,13 @@ tbody, tfoot, thead, tr, th, td, article, aside, canvas,
 details, embed, figure, figcaption, footer, header, hgroup,
 main, menu, nav, output, ruby, section, summary, time, mark,
 audio, video {
-margin: 0;
-padding: 0;
-border: 0;
-font-size: 100%;
-font: inherit;
-vertical-align: baseline;
-} 
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 
 
 /* HTML5 display-role reset for older browsers */
@@ -36,10 +36,10 @@ quotes: none;
 blockquote:before, blockquote:after, q:before, q:after {
 content: ''; content: none;
 }
-table { 
-3
+table {
+
 border-collapse: collapse; border-spacing: 0;
-} 
+}
 
 
 /* Containers */
@@ -48,6 +48,7 @@ border-collapse: collapse; border-spacing: 0;
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 /* End Containers */
 
@@ -198,9 +199,9 @@ border-collapse: collapse; border-spacing: 0;
 	list-style-type:none;
 	float:right;
 	margin-top: 10px;
+	margin-right: 15px;
 }
 .footerpics {
-	table-layout:fixed;
 	width:280px;
 	height:100%;
 	float:left;
@@ -208,8 +209,8 @@ border-collapse: collapse; border-spacing: 0;
 	padding:0px;
 }
 .footerpics img {
-	width:100%;
-	height:auto;
+	max-height: 60px;
+	max-width: 60px;
 }
 /* END FOOTER */
 
@@ -223,7 +224,8 @@ main {
 	background-color:white;
 }
 body {
-	background-color: #444444;
+	background-image: url("bilder/bakgrund.png");
+	background-size: cover;
 }
 article h1 {
 	text-align:center;
@@ -763,7 +765,7 @@ h1, h2, h3, h4, p {
 	margin:auto;
 }
 .header {
-	width:calc(100% - 142px);
+	width:calc(100% - 145px);
 	height:140px;
 	background-image: url("bilder/banner.png");
 	float:left;
