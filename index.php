@@ -60,6 +60,7 @@ clear:both;
 		<nav class="mainnav">
 			<ul class="breadcrumbs">
 				<li><a href="index.php">Hem /</a></li>
+
 			</ul>
 		</nav>
 		
@@ -74,6 +75,9 @@ clear:both;
 					<img src="bilder/justcause.jpg" alt="justcause">
 				</div>
 				<div>
+                    <!--
+                    testar
+                    -->
 					<img src="bilder/rainbow.jpg" alt="rainbow">
 				</div>
 			</div>
