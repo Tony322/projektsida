@@ -66,7 +66,7 @@ clear:both;
 		
 		
         <main>
-		<!-- hej -->
+		<!-- hej 2222-->
 			<div id="slideshow">
 				<div>
 					<img src="bilder/battle2.jpg" alt="Battle">
