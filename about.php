@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
 	<meta name="robots" content="noindex, nofollow"/>
-    <title>Speldalen - Nyhetsbrev.</title>
+      <title>Speldalen - Nyhetsbrev.</title>
     <style type="text/css">
 body {
 background-color:#FFFFFF;

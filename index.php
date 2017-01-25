@@ -35,7 +35,8 @@ clear:both;
   <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
   
   </head>
- 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
   <body>
     <div id="container">
 	
