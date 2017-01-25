@@ -779,8 +779,43 @@ display:none;
 /* END FOOTER */
 }
 
-/*SPELDALEN LOGGAN FÖRSVINNER */
+/*SPELDALEN LOGGAN FÖRSVINNER, SLIDESHOWEN, NEWS OCH OFFERBOX JUSTERAS AUTOMATISKT */
 @media screen and (max-width:500px) {
+#slideshow {
+	display:none;
+}
+#slideshow > div {
+display:none;
+}
+#slideshow > div > img{
+	display:none;
+}
+
+.welcome {
+margin: 0px;
+padding: 2%;
+text-align: center;
+}
+
+.news{
+	
+	border-radius: 0 25px 0 25px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	width: 45%;
+	height: auto;
+	float:left;
+	margin-left:2.5%;
+	/*overflow:auto; */
+}
+.offers{
+	border-radius: 0 25px 0 25px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	margin:0px;
+	width: 45%;
+	height: auto;
+	float:left;
+	margin-left:5%;
+}
 
 /* HEADER */
 .search {
