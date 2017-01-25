@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta name="robots" content="noindex, nofollow"/>
 	<meta name=“description” content="Speldalen - Köp senaste konsolspelen till xbox Wii U/Wii U i Borlänge till de senaste konsolerna"/>
     <title>Speldalen - Xbox</title>
