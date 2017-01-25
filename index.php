@@ -13,6 +13,7 @@ color:#000000;
 .clearfix {
 clear:both;
 }
+        <!-- fhfh -->
 </style>
     <link rel="stylesheet" style="text/css" href="hemstyle.css" />
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
