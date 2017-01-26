@@ -83,7 +83,7 @@ clear:both;
 					<img src="bilder/rainbow.jpg" alt="rainbow">
 				</div>
 			</div>
-			<h2 class="welcome">Välkommen till Speldalen!</h2>
+			<h2 class="welcomeheader">Välkommen till Speldalen!</h2>
 			<p class="welcome">Hos oss finner du spel till de populäraste spelkonsolerna, som just nu är Microsoft Xbox, Nintendo Wii och Sony Playstation.</p>
 			<br>
 
