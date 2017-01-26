@@ -296,6 +296,7 @@ height:auto;
 	padding:15px 0px 0px 15px;
 	margin:0px;
 	font-size:1.1em;
+	font-weight:bold;
 	
 }
 .news a {
@@ -304,16 +305,32 @@ height:auto;
 	font-size:1.1em;
 	
 }
-.offers p, h1 {
-	padding:15px;
+.offers p {
+	padding:15px 0px 0px 15px;
+	margin:0px;
+	font-size:1em;
+}
+.offers h1{
+	padding:15px 0px 0px 15px;
 	margin:0px;
 	font-size:1.1em;
+	font-weight:bold;
+}
+
+.welcomeheader {
+	margin: 0px;
+padding: 0px;
+text-align: center;
+	font-weight:bold;
 }
 .welcome {
 margin: 0px;
 padding: 0px;
 text-align: center;
 }
+
+
+
 
 /* END HEM/NYHETER */
 
@@ -414,6 +431,11 @@ font-family:Verdana,sans-serif,Arial;
 /* GLOBALA REGLER */
 h1, h2, h3, h4, p {
 	font-family: Verdana,sans-serif,Arial;
+}
+h1, h2, h3, h4 {
+	font-weight:bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 /* END GLOBALA REGLER */
 
