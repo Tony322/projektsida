@@ -18,6 +18,9 @@ audio, video {
 	vertical-align: baseline;
 }
 
+element {
+display:none;
+} 
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header,
@@ -36,10 +39,9 @@ quotes: none;
 blockquote:before, blockquote:after, q:before, q:after {
 content: ''; content: none;
 }
-table {
-
+table { 
 border-collapse: collapse; border-spacing: 0;
-}
+} 
 
 
 /* Containers */
