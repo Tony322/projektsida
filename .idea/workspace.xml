@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85f239b0-b160-458f-a82b-6e47993a7afa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,34 +20,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-              <folding>
-                <marker date="1485344116526" expanded="true" signature="760:772" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hemstyle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hemstyle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="68" column="20" lean-forward="false" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="-1496">
+              <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+              <folding>
+                <marker date="1485352379028" expanded="false" signature="667:675" ph="..." />
+                <marker date="1485352379028" expanded="false" signature="3111:3120" ph="..." />
+                <marker date="1485352379028" expanded="false" signature="3249:3280" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,6 +44,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/footer.html" />
+        <option value="$PROJECT_DIR$/about.php" />
+        <option value="$PROJECT_DIR$/nintendo/index.php" />
+        <option value="$PROJECT_DIR$/playstation/index.php" />
+        <option value="$PROJECT_DIR$/xbox/index.php" />
+        <option value="$PROJECT_DIR$/konsoler.php" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -76,7 +63,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1932" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -94,6 +81,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -108,8 +97,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -117,6 +104,117 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/hemstyle.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.php</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -190,7 +288,8 @@
       <workItem from="1485340869841" duration="1735000" />
       <workItem from="1485343014241" duration="572000" />
       <workItem from="1485343611164" duration="5000" />
-      <workItem from="1485343651606" duration="525000" />
+      <workItem from="1485343651606" duration="1153000" />
+      <workItem from="1485345735333" duration="4394000" />
     </task>
     <task id="LOCAL-00001" summary="testar">
       <created>1485342456458</created>
@@ -206,33 +305,69 @@
       <option name="project" value="LOCAL" />
       <updated>1485343054439</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="testar">
+      <created>1485344488538</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1485344488538</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Infört Meta information på Index">
+      <created>1485345959613</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1485345959613</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Infört Meta information på Index">
+      <created>1485346610181</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1485346610181</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Infört Meta information på Index">
+      <created>1485346724060</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1485346724060</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Infört Meta information på Konsoller">
+      <created>1485347532932</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1485347532932</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3884000" />
+    <option name="totallyTimeSpent" value="8906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25052193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +378,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testar" />
-    <option name="LAST_COMMIT_MESSAGE" value="testar" />
+    <MESSAGE value="Infört Meta information på Index" />
+    <MESSAGE value="Infört Meta information på Konsoller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Infört Meta information på Konsoller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -254,9 +391,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1485344116526" expanded="true" signature="760:772" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -264,9 +399,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1485344116526" expanded="true" signature="760:772" ph="..." />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -282,7 +423,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1485352379028" expanded="false" signature="667:675" ph="..." />
+            <marker date="1485352379028" expanded="false" signature="3111:3120" ph="..." />
+            <marker date="1485352379028" expanded="false" signature="3249:3280" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -291,7 +436,191 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xbox/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="75" lean-forward="false" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playstation/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="75" lean-forward="false" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nintendo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="75" lean-forward="false" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hemstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-338">
+          <caret line="288" column="1" lean-forward="true" selection-start-line="288" selection-start-column="1" selection-end-line="288" selection-end-column="1" />
+          <folding>
+            <element signature="e#47#126#0" expanded="false" />
+            <element signature="e#207#373#0" expanded="false" />
+            <element signature="e#389#405#0" expanded="false" />
+            <element signature="e#423#517#0" expanded="false" />
+            <element signature="e#527#658#0" expanded="false" />
+            <element signature="e#705#797#0" expanded="false" />
+            <element signature="e#810#906#0" expanded="false" />
+            <element signature="e#923#982#0" expanded="false" />
+            <element signature="e#991#1257#0" expanded="false" />
+            <element signature="e#1268#1357#0" expanded="false" />
+            <element signature="e#1367#1393#0" expanded="false" />
+            <element signature="e#1432#1564#0" expanded="false" />
+            <element signature="e#1578#1663#0" expanded="false" />
+            <element signature="e#1680#1738#0" expanded="false" />
+            <element signature="e#1756#1913#0" expanded="false" />
+            <element signature="e#1937#2002#0" expanded="false" />
+            <element signature="e#2044#2159#0" expanded="false" />
+            <element signature="e#2169#2188#0" expanded="false" />
+            <element signature="e#2199#2220#0" expanded="false" />
+            <element signature="e#2239#2318#0" expanded="false" />
+            <element signature="e#2337#2396#0" expanded="false" />
+            <element signature="e#2409#2506#0" expanded="false" />
+            <element signature="e#2523#2553#0" expanded="false" />
+            <element signature="e#2596#2706#0" expanded="false" />
+            <element signature="e#2712#2743#0" expanded="false" />
+            <element signature="e#2755#2778#0" expanded="false" />
+            <element signature="e#2830#3010#0" expanded="false" />
+            <element signature="e#3028#3124#0" expanded="false" />
+            <element signature="e#3148#3176#0" expanded="false" />
+            <element signature="e#3271#3428#0" expanded="false" />
+            <element signature="e#3436#3581#0" expanded="false" />
+            <element signature="e#3590#3652#0" expanded="false" />
+            <element signature="e#3662#3726#0" expanded="false" />
+            <element signature="e#3735#3785#0" expanded="false" />
+            <element signature="e#3800#3849#0" expanded="false" />
+            <element signature="e#3859#3909#0" expanded="false" />
+            <element signature="e#3955#3988#0" expanded="false" />
+            <element signature="e#3996#4020#0" expanded="false" />
+            <element signature="e#4065#4104#0" expanded="false" />
+            <element signature="e#4115#4174#0" expanded="false" />
+            <element signature="e#4188#4210#0" expanded="false" />
+            <element signature="e#4261#4297#0" expanded="false" />
+            <element signature="e#4308#4354#0" expanded="false" />
+            <element signature="e#4368#4384#0" expanded="false" />
+            <element signature="e#4396#4412#0" expanded="false" />
+            <element signature="e#4431#4473#0" expanded="false" />
+            <element signature="e#4495#4513#0" expanded="false" />
+            <element signature="e#4536#4567#0" expanded="false" />
+            <element signature="e#4588#4648#0" expanded="false" />
+            <element signature="e#4706#4748#0" expanded="false" />
+            <element signature="e#4769#4787#0" expanded="false" />
+            <element signature="e#4809#4840#0" expanded="false" />
+            <element signature="e#4860#4920#0" expanded="false" />
+            <element signature="e#4964#5039#0" expanded="false" />
+            <element signature="e#5121#5164#0" expanded="false" />
+            <element signature="e#5245#9726#0" expanded="false" />
+            <element signature="e#5344#5510#0" expanded="false" />
+            <element signature="e#5526#5542#0" expanded="false" />
+            <element signature="e#5560#5654#0" expanded="false" />
+            <element signature="e#5664#5796#0" expanded="false" />
+            <element signature="e#5843#5935#0" expanded="false" />
+            <element signature="e#5948#6044#0" expanded="false" />
+            <element signature="e#6061#6120#0" expanded="false" />
+            <element signature="e#6129#6395#0" expanded="false" />
+            <element signature="e#6406#6495#0" expanded="false" />
+            <element signature="e#6505#6531#0" expanded="false" />
+            <element signature="e#6570#6775#0" expanded="false" />
+            <element signature="e#6789#6874#0" expanded="false" />
+            <element signature="e#6891#6917#0" expanded="false" />
+            <element signature="e#6935#7083#0" expanded="false" />
+            <element signature="e#7107#7152#0" expanded="false" />
+            <element signature="e#7198#7309#0" expanded="false" />
+            <element signature="e#7361#7541#0" expanded="false" />
+            <element signature="e#7559#7655#0" expanded="false" />
+            <element signature="e#7679#7707#0" expanded="false" />
+            <element signature="e#7805#7962#0" expanded="false" />
+            <element signature="e#7970#8115#0" expanded="false" />
+            <element signature="e#8124#8186#0" expanded="false" />
+            <element signature="e#8196#8260#0" expanded="false" />
+            <element signature="e#8269#8319#0" expanded="false" />
+            <element signature="e#8334#8383#0" expanded="false" />
+            <element signature="e#8393#8443#0" expanded="false" />
+            <element signature="e#8489#8522#0" expanded="false" />
+            <element signature="e#8530#8554#0" expanded="false" />
+            <element signature="e#8599#8638#0" expanded="false" />
+            <element signature="e#8649#8708#0" expanded="false" />
+            <element signature="e#8722#8744#0" expanded="false" />
+            <element signature="e#8795#8831#0" expanded="false" />
+            <element signature="e#8842#8888#0" expanded="false" />
+            <element signature="e#8902#8918#0" expanded="false" />
+            <element signature="e#8930#8946#0" expanded="false" />
+            <element signature="e#8965#9007#0" expanded="false" />
+            <element signature="e#9029#9047#0" expanded="false" />
+            <element signature="e#9070#9101#0" expanded="false" />
+            <element signature="e#9122#9182#0" expanded="false" />
+            <element signature="e#9240#9282#0" expanded="false" />
+            <element signature="e#9303#9321#0" expanded="false" />
+            <element signature="e#9343#9374#0" expanded="false" />
+            <element signature="e#9394#9454#0" expanded="false" />
+            <element signature="e#9498#9573#0" expanded="false" />
+            <element signature="e#9655#9698#0" expanded="false" />
+            <element signature="e#9770#10512#0" expanded="false" />
+            <element signature="e#9830#9871#0" expanded="false" />
+            <element signature="e#9884#9986#0" expanded="false" />
+            <element signature="e#10003#10066#0" expanded="false" />
+            <element signature="e#10075#10356#0" expanded="false" />
+            <element signature="e#10367#10456#0" expanded="false" />
+            <element signature="e#10466#10492#0" expanded="false" />
+            <element signature="e#10558#11066#0" expanded="false" />
+            <element signature="e#10618#10733#0" expanded="false" />
+            <element signature="e#10743#10762#0" expanded="false" />
+            <element signature="e#10773#10794#0" expanded="false" />
+            <element signature="e#10813#10892#0" expanded="false" />
+            <element signature="e#10911#10970#0" expanded="false" />
+            <element signature="e#10983#11000#0" expanded="false" />
+            <element signature="e#11017#11047#0" expanded="false" />
+            <element signature="e#11154#12277#0" expanded="false" />
+            <element signature="e#11695#11736#0" expanded="false" />
+            <element signature="e#11749#11766#0" expanded="false" />
+            <element signature="e#11783#11846#0" expanded="false" />
+            <element signature="e#11855#12122#0" expanded="false" />
+            <element signature="e#12133#12222#0" expanded="false" />
+            <element signature="e#12232#12258#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/konsoler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="71" lean-forward="true" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
+          <folding>
+            <marker date="1485351833423" expanded="false" signature="414:422" ph="..." />
+            <marker date="1485351833423" expanded="false" signature="1925:1934" ph="..." />
+            <marker date="1485351833423" expanded="false" signature="2063:2094" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -299,17 +628,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <marker date="1485344116526" expanded="true" signature="760:772" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hemstyle.css">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -319,9 +638,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="68" column="20" lean-forward="false" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="-1496">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <marker date="1485352379028" expanded="false" signature="667:675" ph="..." />
+            <marker date="1485352379028" expanded="false" signature="3111:3120" ph="..." />
+            <marker date="1485352379028" expanded="false" signature="3249:3280" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
