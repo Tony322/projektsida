@@ -15,7 +15,7 @@ color:#000000;
 clear:both;
 }
 </style>
-    <link rel="stylesheet" style="text/css" href="../hemstyle.css" />
+    <link rel="stylesheet" style="text/css" href="hemstyle.css" />
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 	<script>
 		$(function() {
@@ -33,7 +33,9 @@ clear:both;
 
 		});
 	</script>
-  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  
+
+  
   
   </head>
 

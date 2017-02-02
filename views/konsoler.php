@@ -14,7 +14,7 @@
                 clear:both;
             }
         </style>
-        <link rel="stylesheet" style="text/css" href="../hemstyle.css" />
+        <link rel="stylesheet" style="text/css" href="hemstyle.css" />
     </head>
 
     <body>
