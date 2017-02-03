@@ -69,17 +69,26 @@
                 <article>
 
                     <?php
-                    echo "SPEL - ANTAL: " . count($games) . " </br>";
-
                     foreach ($games as $game) {
-                        echo "<li> ID:{$game['id']} {$game['name']} DESC: {$game['description']} CATID: {$game['category']} CATNAME: {$game['categoryname']} PRICE:{$game['price']} STOCK:{$game['stock']} </li>";
-                        
-                        //Knapp som kör javascript och skickar in det nuvarande artikel idt som argument.
-                        echo "<button onclick='addToCart({$game['id']})'>Köp</button>";
-                    }
 
-                    echo 'END SPEL </br>';
+                        echo "<div class='productdiv'>";
+
+                            echo "<div class='productdivleft'>";
+                            echo "<img src='./bilder/{$game['categoryname']}/{$game['imgurl']}'>";
+                            echo "</div>";
+
+                            echo "<div class='productdivcenter'>";
+                            echo "<a href='index.php?products/name/{$game['name']}'>" . $game['name'] . '</a>';
+                            echo "</div>";
+
+                            echo "<div class='productdivright'>";
+                            echo "<button onclick='addToCart({$game['id']})'>Köp</button><br>";
+                            echo "</div>";
+
+                        echo "</div>";
+                    }
                     ?>
+
                 </article>
             </main>
 

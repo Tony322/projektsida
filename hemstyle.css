@@ -382,20 +382,45 @@ padding-top: 5px;
 .product ul{
 	float:left;
 }
-.productlisttable {
-margin-left: auto;
-margin-right: auto;
+.productdiv {
+	float: left;
+	width: 90%;
+	height: 100px;
+	margin: 5px;
+	outline: 1px solid black;
 }
-.productlisttable td {
-padding: 10px;
+.productdivleft {
+	min-width: 16.25%;
+	float: left;
+	height: 100%;
+	width: 20%;
+	outline: 1px solid palevioletred;
 }
-.productlisttable img {
-height: 180px;
-width: auto;
+.productdivleft img{
+	width: auto;
+	height: 100%;
 }
-.productlisttable p {
-text-align:center;
-font-family:Verdana,sans-serif,Arial;
+.productdivcenter {
+	float: left;
+	height: 100%;
+	width: 40%;
+	outline: 1px solid pink;
+	display: flex;
+	align-items: center;
+}
+.productdivcenter a {
+	font-size: 1.2em;
+	text-decoration: none;
+	color: black;;
+	font-family: Verdana,sans-serif,Arial;
+}
+.productdivright {
+	float: left;
+	height: 100%;
+	width: 40%;
+	outline: 1px solid greenyellow;
+	display: flex;
+	align-items: center;
 }
 /* END PRODUKTSIDA */
 
@@ -710,21 +735,6 @@ padding-top: 5px;
 }
 .product ul{
 	float:left;
-}
-.productlisttable {
-margin-left: auto;
-margin-right: auto;
-}
-.productlisttable td {
-padding: 10px;
-}
-.productlisttable img {
-height: 180px;
-width: auto;
-}
-.productlisttable p {
-text-align:center;
-font-family:Verdana,sans-serif,Arial;
 }
 /* END PRODUKTSIDA */
 

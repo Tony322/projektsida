@@ -14,8 +14,6 @@
         <?php
         session_start();
 
-
-
         //Exploda urlen vid /
         $queryArray = explode('/', $_SERVER['QUERY_STRING']);
 
