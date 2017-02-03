@@ -21,7 +21,7 @@ class products {
         $para = str_replace('%20', ' ', $para);
 
         $games = $model->getGameByName($para);
-        include_once './views/productview.php';
+        include_once './views/productdetails.php';
     }
 
     public function categories() {

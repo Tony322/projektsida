@@ -114,7 +114,7 @@ class ProductModel {
 
     public function getGameByName($name) {
         try {
-            echo 'running getgamesbycategoryname </br>';
+            //echo 'running getgamesbycategoryname </br>';
             //Tabellnamn exkl. prefix.
             $tablePostfix = 'products';
 
