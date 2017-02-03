@@ -24,6 +24,15 @@ class products {
         include_once './views/productview.php';
     }
 
+    public function searchname($para) {
+        $model = new ProductModel();
+        //Hämta spel via namn
+        $para = str_replace('%20', ' ', $para);
+
+        $games = $model->getGameByName($para);
+        include_once './views/searchresult.php';
+    }
+
     public function categories() {
         include_once './views/konsoler.php';
     }
