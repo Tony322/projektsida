@@ -17,22 +17,6 @@
     </style>
     <link rel="stylesheet" style="text/css" href="hemstyle.css" />
 
-    <script>
-        function addToCart(id) {
-            //Objekt för att köra url request
-            var xmlhttp = new XMLHttpRequest();
-            //Skapa urlen
-            var requestUrl = "index.php?cart/add/" + id;
-
-            //Skapa och kör url requesten
-            xmlhttp.open("GET", requestUrl, true);
-            xmlhttp.send();
-
-            //Meddela användaren att produkten är tillagd.
-            alert("Lade till artikelnr: " + id + " i kundvagnen!");
-        }
-    </script>
-
 </head>
 
 <body>
@@ -59,7 +43,7 @@
         <ul class="breadcrumbs">
             <li><a href="index.php?home">Hem /</a></li>
             <li><a href="index.php?products/categories">Konsoler /</a></li>
-            <li><a href="index.php?products/category/playstation">Playstation</a></li>
+            <li><a href="index.php?products/category/<?php echo ucfirst($games[0]['categoryname']); ?>"><?php echo ucfirst($games[0]['categoryname']); ?></a></li>
         </ul>
     </nav>
 
@@ -79,6 +63,10 @@
 
             echo 'END SPEL </br>';
             */
+            
+            //print_r($games);
+            
+            echo $games[0]['categoryname'];
             ?>
 
         </article>
