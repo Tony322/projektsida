@@ -61,7 +61,7 @@
                 <ul class="breadcrumbs">
                     <li><a href="index.php?home">Hem /</a></li>
                     <li><a href="index.php?products/categories">Konsoler /</a></li>
-                    <li><a href="index.php?products/category/playstation">Playstation</a></li>
+                    <li><a href="index.php?products/category/<?php echo ucfirst($games[0]['categoryname']); ?>"><?php echo ucfirst($games[0]['categoryname']); ?></a></li>
                 </ul>
             </nav>
 
