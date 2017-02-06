@@ -1,8 +1,14 @@
+<script>
+    function searchProduct() {
+
+        var searchedProduct = document.getElementById('searchBox').value;
+        window.location = "index.php?products/searchgame/" + searchedProduct;
+    }
+</script>
+
 <a href="index.php"><P>Speldalen</p></a>
 <a href="index.php?cart/view"><img src="bilder/cart.png" alt="cart" style="height:50px;width:50px;float:right;margin-right:10px;"></a>
 <div class="search">
-	<form action="#">
-		<input type="text" name="search" placeholder="Fyll i sökord här..."/>
-		<input type="submit" value="Sök" />
-	</form>
+	<input id="searchBox" type="text" name="search" placeholder="Fyll i sökord här..."/>
+	<button onclick='searchProduct()'>Sök</button>
 </div>
