@@ -14,14 +14,14 @@ class ProductModel {
 
             $tableName = $this->tablePrefix . $tablePostfix;
 
-            $details = 'mysql:host=mards.se;dbname=testkod';
+            $details = 'mysql:host=mards.se;dbname=webshop';
             $usr = 'tony';
             $pw = 'Vennberg';
 
             $pdocon = new PDO($details, $usr, $pw);
 
 
-            $querystr = "call h15tonve_getAllProducts();";
+            $querystr = "call h15tonve_getAllProducts()";
 
             //Printa frågan..
             //echo "<b>Executed Query:</b> \"$querystr\" </br>";
@@ -76,20 +76,21 @@ class ProductModel {
         }
     }
 
-    public function getGamesByCategoryId($id) {
+    //Ingen procedure för denna, ta bort?
+/*    public function getGamesByCategoryId($id) {
         try {
             //echo 'running getGamesByCategoryId </br>';
             //Tabellnamn exkl. prefix.
             $tablePostfix = 'products';
 
             $tableName = $this->tablePrefix . $tablePostfix;
-            $details = 'mysql:host=mards.se;dbname=testkod';
+            $details = 'mysql:host=mards.se;dbname=webshop';
             $usr = 'tony';
             $pw = 'Vennberg';
 
             $pdocon = new PDO($details, $usr, $pw);
 
-            $querystr = "SELECT * FROM `{$tableName}` INNER JOIN {$this->tablePrefix}categories ON {$this->tablePrefix}products.category = {$this->tablePrefix}categories.id WHERE category = {$id}";
+            $querystr = "ON {$this->tablePrefix}products.category = {$this->tablePrefix}categories.id WHERE category = {$id}";
 
             //Printa frågan..
             //echo "<b>Executed Query:</b> \"$querystr\" </br>";
@@ -110,7 +111,7 @@ class ProductModel {
             $pdocon = NULL;
             throw new Exception('Databasfel!');
         }
-    }
+    }*/
 
     public function getGameByName($name) {
         try {
@@ -119,13 +120,13 @@ class ProductModel {
             $tablePostfix = 'products';
 
             $tableName = $this->tablePrefix . $tablePostfix;
-            $details = 'mysql:host=mards.se;dbname=testkod';
+            $details = 'mysql:host=mards.se;dbname=webshop';
             $usr = 'tony';
             $pw = 'Vennberg';
 
             $pdocon = new PDO($details, $usr, $pw);
+            $querystr = 'call h15tonve_getProductByName(\'' . $name . '\')';
 
-            $querystr = "SELECT * FROM `{$tableName}` INNER JOIN {$this->tablePrefix}categories ON {$this->tablePrefix}products.category = {$this->tablePrefix}categories.id WHERE name = '{$name}'";
 
             //Printa frågan..
             //echo "<b>Executed Query:</b> \"$querystr\" </br>";

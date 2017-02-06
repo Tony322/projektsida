@@ -38,8 +38,9 @@ class products {
     }
 
     public function all() {
+        $model = new ProductModel();
         $games = $model->getAllGames();
-        include_once './views/Productview.php';
+        include_once './views/productview.php';
     }
 
 }
