@@ -54,7 +54,7 @@
 
             echo "<div class='productdetail'>";
             echo $games[0]['name'] . "</br>";
-            echo "<img src='./bilder/{$games[0]['categoryname']}/{$games[0]['imgurl']}'>" . "</br>";
+            echo "<img src='./bilder/{$games[0]['categoryname']}/{$games[0]['imgurl']}'>" . $games[0]['description'] . "</br>";
             echo $games[0]['price'] . "kr&nbsp&nbsp" . "<button onclick='addToCart({$games[0]['id']})'>Lägg i varukorgen.</button><br>";
             echo "</div>"
 
