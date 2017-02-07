@@ -51,22 +51,13 @@
         <article>
 
             <?php
-            /*
-            echo "SPEL - ANTAL: " . count($games) . " </br>";
 
-            foreach ($games as $game) {
-                echo "<a href='index.php?products/name/{$game['name']}'>" . $game['name'] . '</a>';
-                //echo "<li> ID:{$game['id']} {$game['name']} DESC: {$game['description']} CATID: {$game['category']} CATNAME: {$game['categoryname']} PRICE:{$game['price']} STOCK:{$game['stock']} </li>";
-                //Knapp som kör javascript och skickar in det nuvarande artikel idt som argument.
-                echo "<button onclick='addToCart({$game['id']})'>Köp</button><br>";
-            }
+            echo "<div class='productdetail'>";
+            echo $games[0]['name'] . "</br>";
+            echo "<img src='./bilder/{$games[0]['categoryname']}/{$games[0]['imgurl']}'>" . "</br>";
+            echo $games[0]['price'] . "kr&nbsp&nbsp" . "<button onclick='addToCart({$games[0]['id']})'>Lägg i varukorgen.</button><br>";
+            echo "</div>"
 
-            echo 'END SPEL </br>';
-            */
-            
-            //print_r($games);
-            
-            echo $games[0]['categoryname'];
             ?>
 
         </article>

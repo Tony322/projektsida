@@ -82,7 +82,7 @@
                             echo "</div>";
 
                             echo "<div class='productdivright'>";
-                            echo "<button onclick='addToCart({$game['id']})'>Köp</button><br>";
+                            echo $game['price'] . "kr&nbsp&nbsp" . "<button onclick='addToCart({$game['id']})'>Lägg i varukorgen.</button><br>";
                             echo "</div>";
 
                         echo "</div>";
