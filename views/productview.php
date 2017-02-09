@@ -17,6 +17,7 @@
         </style>
         <link rel="stylesheet" style="text/css" href="hemstyle.css" />
 
+        <!--
         <script>
             function addToCart(id) {
                 //Objekt för att köra url request
@@ -32,6 +33,7 @@
                 alert("Lade till artikelnr: " + id + " i kundvagnen!");
             }
         </script>
+        -->
 
 
 

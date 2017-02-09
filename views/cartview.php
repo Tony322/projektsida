@@ -69,7 +69,11 @@
                         $sumPerProduct = $game['price'] * $count = $amount[$id];
 
                         //Skriver ut..
-                        echo "<li> Artikelnr: {$game['id']} Produktnamn: {$game['name']} Antal: {$count} Pris/st: {$game['price']} Pris/total: {$sumPerProduct}</li>";
+                        echo "<li> Artikelnr: {$game['id']} Produktnamn: {$game['name']} Antal: {$count} Pris/st: {$game['price']} Pris/total: {$sumPerProduct}";
+                        echo "&nbsp" . "<a href='index.php?cart/remove/$id'><button type='button'>-</button></a>";
+                        echo "&nbsp" . "<a href='index.php?cart/addincart/$id'><button type='button'>+</button></a>";
+                        echo "&nbsp" . "<a href='index.php?cart/purge/$id'><button type='button'>ta bort</button></a>";
+                        echo "</li>";
 
                         //Adderar totalsumman
                         $summa += $sumPerProduct;

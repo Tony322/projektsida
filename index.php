@@ -6,6 +6,21 @@
         <meta name="robots" content="noindex, nofollow"/>
         <link rel="stylesheet" style="text/css" href="hemstyle.css" />
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <script>
+            function addToCart(id) {
+                //Objekt för att köra url request
+                var xmlhttp = new XMLHttpRequest();
+                //Skapa urlen
+                var requestUrl = "index.php?cart/add/" + id;
+
+                //Skapa och kör url requesten
+                xmlhttp.open("GET", requestUrl, true);
+                xmlhttp.send();
+
+                //Meddela användaren att produkten är tillagd.
+                alert("Lade till artikelnr: " + id + " i kundvagnen!");
+            }
+        </script>
     </head>
 
 
