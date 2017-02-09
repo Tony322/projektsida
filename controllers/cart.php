@@ -26,6 +26,7 @@ class cart {
         include_once './views/cartview.php';
     }
 
+    //Adda till cart utan att refresha cartview
     public function add($para) {
         if (!is_numeric($para)) {
             
@@ -36,6 +37,22 @@ class cart {
 
         //Uppdatera session efter den nya pushen.
         $_SESSION['cart'] = $this->cart;
+    }
+
+    //Adda till cart inifrån cart å refresha
+    public function addincart($para) {
+        if (!is_numeric($para)) {
+            
+        }
+
+        //Pusha till cart
+        array_push($this->cart, $para);
+
+        //Uppdatera session efter den nya pushen.
+        $_SESSION['cart'] = $this->cart;
+        
+        $this->view();
+        
     }
 
     public function remove($para) {
