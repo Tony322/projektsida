@@ -13,6 +13,11 @@
 
         <?php
         session_start();
+        
+        //Om inte cart session finns se till att skapa skiten
+        if (!$_SESSION['cart']) {
+            $_SESSION['cart'] = array();
+        }
 
         //Exploda urlen vid /
         $queryArray = explode('/', $_SERVER['QUERY_STRING']);

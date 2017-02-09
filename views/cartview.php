@@ -49,14 +49,14 @@
                 <article>
 
                     <?php
+                    //Håller totalsumma
                     $summa = 0.0;
 
                     //Få en array som innehåller antal av varje id
-                    
                     $amount = array_count_values(array_map(function($value){return $value['id'];}, $games));
+                    
                     //Se till att arrayen innehåller unika rader.
                     $games = array_unique($games, SORT_REGULAR);
-
 
                     foreach ($games as $game) {
                         //Spelets id

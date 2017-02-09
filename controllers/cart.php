@@ -14,31 +14,77 @@ class cart {
         }
     }
 
-    public function view()
-    {
+    public function view() {
         $this->cart = $_SESSION['cart'];
         $model = new ProductModel();
         $games = array();
-        
-        foreach($this->cart as $x){
+
+        foreach ($this->cart as $x) {
             $game = $model->getGameById($x);
             $games = array_merge($games, $game);
         }
         include_once './views/cartview.php';
     }
-    
+
     public function add($para) {
-        if(!is_numeric($para)){
+        if (!is_numeric($para)) {
             
         }
-        
+
         //Pusha till cart
         array_push($this->cart, $para);
-        
-        echo 'Pushar till cart <br/>';
+
         //Uppdatera session efter den nya pushen.
         $_SESSION['cart'] = $this->cart;
-        echo 'Uppdaterade session <br/>';
     }
-    
+
+    public function remove($para) {
+        //echo "kör remove";
+        //För att hålla koll på index i arrayen
+        $i = 0;
+
+        //Loopa igenom cartitems
+        foreach ($this->cart as $cartItem) {
+            //Kolla om det sökta idt i cart finns..
+            if ($cartItem == $para) {
+                //Ta bort ur array och hoppa ur loopen.
+                unset($this->cart[$i]);
+                break;
+            }
+            //Plussa index med 1 för varje iteration
+            $i++;
+        }
+
+        //Rättar till indexplatserna i arrayen, så att de blir 0,1,2,3.. ist för 0,3,4,7...
+        $this->cart = array_values($this->cart);
+
+        //Uppdatera session efter borttagningen.
+        $_SESSION['cart'] = $this->cart;
+        //Visa kundvagn
+        $this->view();
+    }
+
+    public function purge($para) {
+        //För att hålla koll på index i arrayen
+        $i = 0;
+        //Loopa igenom cartitems
+        foreach ($this->cart as $cartItem) {
+            //Kolla om det sökta idt i cart finns..
+            if ($cartItem == $para) {
+                //Ta bort ur array
+                unset($this->cart[$i]);
+            }
+            //Plussa index med 1 för varje iteration
+            $i++;
+        }
+
+        //Rättar till indexplatserna i arrayen, så att de blir 0,1,2,3.. ist för 0,3,4,7...
+        $this->cart = array_values($this->cart);
+
+        //Uppdatera session efter borttagningen.
+        $_SESSION['cart'] = $this->cart;
+        //Visa kundvagn
+        $this->view();
+    }
+
 }
