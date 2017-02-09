@@ -79,7 +79,8 @@
                         $summa += $sumPerProduct;
                     }
                     //Skriv ut totalsumma.
-                    echo "Summa: " . $summa . ":-";
+                    echo "Summa: " . $summa . ":-" . "<br>";
+                    echo "&nbsp" . "<a href='index.php?cart/dumpcart/$id'><button type='button'>dump cart</button></a>";
                     ?>
                 </article>
             </main>

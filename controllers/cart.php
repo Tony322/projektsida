@@ -52,7 +52,6 @@ class cart {
         $_SESSION['cart'] = $this->cart;
         
         $this->view();
-        
     }
 
     public function remove($para) {
@@ -104,4 +103,8 @@ class cart {
         $this->view();
     }
 
+    public function dumpcart(){
+        $_SESSION['cart'] = NULL;
+        $this->view();
+    }
 }
