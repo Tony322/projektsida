@@ -8,7 +8,7 @@ class cart {
     private $cart;
 
     function __construct() {
-        if (!$_SESSION['cart']) {
+        if (!isset($_SESSION['cart'])) {
             $this->cart = array();
         } else {
             $this->cart = $_SESSION['cart'];
