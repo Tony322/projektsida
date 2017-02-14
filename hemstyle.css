@@ -387,14 +387,12 @@ padding-top: 5px;
 	width: 90%;
 	height: 100px;
 	margin: 5px;
-	outline: 1px solid black;
 }
 .productdivleft {
 	min-width: 16.25%;
 	float: left;
 	height: 100%;
 	width: 20%;
-	outline: 1px solid palevioletred;
 }
 .productdivleft img{
 	width: auto;
@@ -404,7 +402,6 @@ padding-top: 5px;
 	float: left;
 	height: 100%;
 	width: 40%;
-	outline: 1px solid pink;
 	display: flex;
 	align-items: center;
 }
@@ -418,7 +415,6 @@ padding-top: 5px;
 	float: left;
 	height: 100%;
 	width: 40%;
-	outline: 1px solid greenyellow;
 	display: flex;
 	align-items: center;
 }
