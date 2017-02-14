@@ -6,11 +6,6 @@ class ProductModel {
 
     public function getAllGames() {
         try {
-            //Tabellnamn exkl. prefix.
-            $tablePostfix = 'products';
-
-            $tableName = $this->tablePrefix . $tablePostfix;
-
             $details = 'mysql:host=mards.se;dbname=webshop';
             $usr = 'tony';
             $pw = 'Vennberg';
@@ -39,11 +34,6 @@ class ProductModel {
 
     public function getGamesByCategoryName($name) {
         try {
-            //echo 'running getgamesbycategoryname </br>';
-            //Tabellnamn exkl. prefix.
-            $tablePostfix = 'products';
-
-            $tableName = $this->tablePrefix . $tablePostfix;
             $details = 'mysql:host=mards.se;dbname=webshop';
             $usr = 'tony';
             $pw = 'Vennberg';
@@ -73,50 +63,9 @@ class ProductModel {
         }
     }
 
-    //Ingen procedure för denna, ta bort?
-/*    public function getGamesByCategoryId($id) {
-        try {
-            //echo 'running getGamesByCategoryId </br>';
-            //Tabellnamn exkl. prefix.
-            $tablePostfix = 'products';
-
-            $tableName = $this->tablePrefix . $tablePostfix;
-            $details = 'mysql:host=mards.se;dbname=webshop';
-            $usr = 'tony';
-            $pw = 'Vennberg';
-
-            $pdocon = new PDO($details, $usr, $pw);
-
-            $querystr = "ON {$this->tablePrefix}products.category = {$this->tablePrefix}categories.id WHERE category = {$id}";
-
-            //Printa frågan..
-            //echo "<b>Executed Query:</b> \"$querystr\" </br>";
-
-            //Förbered frågan
-            $query = $pdocon->prepare($querystr);
-
-            //Kör frågan
-            $query->execute();
-
-            //Ta emot resultat som en array.
-            $games = $query->fetchAll();
-            $pdocon = NULL;
-
-            //$games = array('asdad','asdasd');
-            return $games;
-        } catch (PDOException $pdoexp) {
-            $pdocon = NULL;
-            throw new Exception('Databasfel!');
-        }
-    }*/
-
     public function getGameByName($name) {
         try {
-            //echo 'running getgamesbycategoryname </br>';
-            //Tabellnamn exkl. prefix.
-            $tablePostfix = 'products';
 
-            $tableName = $this->tablePrefix . $tablePostfix;
             $details = 'mysql:host=mards.se;dbname=webshop';
             $usr = 'tony';
             $pw = 'Vennberg';
@@ -152,11 +101,6 @@ class ProductModel {
             //Konvertera potentiell sträng till int för att query ska fungera.
             $id = intval($id);
             
-            //echo 'running getgamesbycategoryname </br>';
-            //Tabellnamn exkl. prefix.
-            $tablePostfix = 'products';
-
-            $tableName = $this->tablePrefix . $tablePostfix;
             $details = 'mysql:host=mards.se;dbname=webshop';
             $usr = 'tony';
             $pw = 'Vennberg';
@@ -187,9 +131,6 @@ class ProductModel {
 
     public function getUserById() {
         try {
-            $tablePostfix = 'products';
-
-            $tableName = $this->tablePrefix . $tablePostfix;
             $details = 'mysql:host=mards.se;dbname=webshop';
             $usr = 'tony';
             $pw = 'Vennberg';
