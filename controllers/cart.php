@@ -1,6 +1,7 @@
 <?php
 
 include_once './models/ProductModel.php';
+include_once './views/ViewHelper.php';
 
 class cart {
 
@@ -23,7 +24,10 @@ class cart {
             $game = $model->getGameById($x);
             $games = array_merge($games, $game);
         }
-        include_once './views/cartview.php';
+
+        $viewhelper = new ViewHelper();
+        $viewhelper->assign('games', $games);
+        $viewhelper->display("cartview.php");
     }
 
     //Adda till cart utan att refresha cartview
@@ -50,7 +54,7 @@ class cart {
 
         //Uppdatera session efter den nya pushen.
         $_SESSION['cart'] = $this->cart;
-        
+
         $this->view();
     }
 
@@ -103,8 +107,9 @@ class cart {
         $this->view();
     }
 
-    public function dumpcart(){
+    public function dumpcart() {
         $_SESSION['cart'] = NULL;
         $this->view();
     }
+
 }
