@@ -13,36 +13,41 @@ class admin
 
 
 {
- public function login() {
-    include_once'./views/login.php';
-}
+    public function login()
+    {
+        include_once './views/login.php';
+    }
 
-public function addProduct($para) {
+    public function addProduct($para)
+    {
 
-}
+    }
 
-public function deleteProduct($para) {
+    public function deleteProduct($para)
+    {
 
-}
+    }
 
-public function updateProduct($para) {
+    public function updateProduct($para)
+    {
 
-}
+    }
 
-public function authUser() {
-     $model = new ProductModel();
+    public function authUser()
+    {
+        $model = new ProductModel();
 
-     $username = $_POST['username'];
-     $password = $_POST['password'];
+        $username = $_POST['username'];
+        $password = $_POST['password'];
 
-     $result = $model->checkUser($username, $password);
+        $result = $model->checkUser($username, $password);
 
-     if($result[0][0] == '1') {
-        header("Location: login.php");
-     } else {
-         $this->login();
+        if ($result[0][0] == '1') {
+            header("Location: ./views/login.php");
+        } else {
+            $this->login();
 
-     }
+        }
 
- }
+    }
 }
