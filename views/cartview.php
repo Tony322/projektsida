@@ -6,7 +6,7 @@
         <meta name="robots" content="noindex, nofollow"/>
         <meta name=“description” content="Speldalen - Köp senaste konsolspelen till playstation Wii U/Wii U i Borlänge till de senaste konsolerna"/>
         <title>Speldalen - Playstation</title>
-        <link rel="stylesheet" style="text/css" href="./hemstyle.css" />
+        <link rel="stylesheet" type="text/css"  href="./hemstyle.css" />
         <style type="text/css">
             body {
                 background-color:#FFFFFF;
@@ -53,8 +53,10 @@
                     $summa = 0.0;
 
                     //Få en array som innehåller antal av varje id
-                    $amount = array_count_values(array_map(function($value){return $value['id'];}, $games));
-                    
+                    $amount = array_count_values(array_map(function($value) {
+                                return $value['id'];
+                            }, $games));
+
                     //Se till att arrayen innehåller unika rader.
                     $games = array_unique($games, SORT_REGULAR);
 

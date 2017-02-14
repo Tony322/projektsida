@@ -6,7 +6,7 @@
         <meta charset="UTF-8" />
         <meta name="robots" content="noindex, nofollow"/>
         <title>Speldalen - Nyhetsbrev.</title>
-        <link rel="stylesheet" style="text/css" href="./hemstyle.css" />
+        <link rel="stylesheet" type="text/css"  href="./hemstyle.css" />
         <style type="text/css">
             body {
                 background-color:#FFFFFF;

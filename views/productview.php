@@ -6,7 +6,7 @@
         <meta name="robots" content="noindex, nofollow"/>
         <meta name=“description” content="Speldalen - Köp senaste konsolspelen till playstation Wii U/Wii U i Borlänge till de senaste konsolerna"/>
         <title>Speldalen - Playstation</title>
-        <link rel="stylesheet" style="text/css" href="./hemstyle.css" />
+        <link rel="stylesheet" type="text/css"  href="./hemstyle.css" />
         <style type="text/css">
             body {
                 background-color:#FFFFFF;
@@ -72,22 +72,21 @@
                 <article>
 
                     <?php
-                    
                     foreach ($games as $game) {
 
                         echo "<div class='productdiv'>";
 
-                            echo "<div class='productdivleft'>";
-                            echo "<img src='./bilder/{$game['categoryname']}/{$game['imgurl']}'>";
-                            echo "</div>";
+                        echo "<div class='productdivleft'>";
+                        echo "<img src='./bilder/{$game['categoryname']}/{$game['imgurl']}'>";
+                        echo "</div>";
 
-                            echo "<div class='productdivcenter'>";
-                            echo "<a href='index.php?products/name/{$game['name']}'>" . $game['name'] . '</a>';
-                            echo "</div>";
+                        echo "<div class='productdivcenter'>";
+                        echo "<a href='index.php?products/name/{$game['name']}'>" . $game['name'] . '</a>';
+                        echo "</div>";
 
-                            echo "<div class='productdivright'>";
-                            echo $game['price'] . "kr&nbsp&nbsp" . "<button onclick='addToCart({$game['id']})'>Lägg i varukorgen.</button><br>";
-                            echo "</div>";
+                        echo "<div class='productdivright'>";
+                        echo $game['price'] . "kr&nbsp&nbsp" . "<button onclick='addToCart({$game['id']})'>Lägg i varukorgen.</button><br>";
+                        echo "</div>";
 
                         echo "</div>";
                     }
