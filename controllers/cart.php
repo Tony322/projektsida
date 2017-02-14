@@ -16,7 +16,7 @@ class cart {
     }
 
     public function view() {
-        $this->cart = $_SESSION['cart'];
+        //$this->cart = $_SESSION['cart'];
         $model = new ProductModel();
         $games = array();
 
