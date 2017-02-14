@@ -48,6 +48,31 @@ class adminModel
 
         $this->pdocon = $pdocon;
     }
+    
+    public function checkUser($username, $password) {
+        try {
+            $querystr = 'call h15tonve_authUser(?, ?)';
+
+            //Förbered frågan
+            $query = $this->pdocon->prepare($querystr);
+
+            $query->bindValue(1, $username, PDO::PARAM_STR);
+            $query->bindValue(2, $password, PDO::PARAM_STR);
+
+            //Kör frågan
+            $query->execute();
+
+            //Ta emot resultat som en array.
+            $games = $query->fetchAll();
+            $this->pdocon = NULL;
+
+            return $games;
+        }
+        catch (PDOException $pdoexp){
+            $pdocon = NULL;
+            throw new Exception('Databasfel!');
+        }
+    }
 }
 
 ?>

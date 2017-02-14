@@ -45,13 +45,17 @@ public function authUser() {
      $result = $model->checkUser($username, $password);
 
      if($result[0][0] == '1') {
-        header("Location: login.php");
+        //Gö skit med session och redirecta till admin kontrollpanel...
+         
+         $this->all();
      } else {
          $this->login();
 
      }
 
  }
+ 
+ 
 
  public function login() {
     include_once'./views/login.php';
