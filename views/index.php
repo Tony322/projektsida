@@ -6,6 +6,7 @@
 	<meta name="robots" content="noindex, nofollow"/>
 	<meta name="description" content="Speldalen, vi har dom senaste spelen till dom senaste konsolerna. Beställ bekvämt hemifrån på hemsidan eller direkt i vår lokala butik i Borlänge. Vi har spel till Sony playstion, Nicrosoft Xbox och Nintendo WiiU."/>
     <title>Speldalen - Konsolspel till Xbox, Nintendo och Playstation.</title>
+    <link rel="stylesheet" style="text/css" href="./hemstyle.css" />
     <style type="text/css">
 body {
 background-color:#FFFFFF;
@@ -15,7 +16,7 @@ color:#000000;
 clear:both;
 }
 </style>
-    <link rel="stylesheet" style="text/css" href="hemstyle.css" />
+
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 	<script>
 		$(function() {

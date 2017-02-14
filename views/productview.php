@@ -6,6 +6,7 @@
         <meta name="robots" content="noindex, nofollow"/>
         <meta name=“description” content="Speldalen - Köp senaste konsolspelen till playstation Wii U/Wii U i Borlänge till de senaste konsolerna"/>
         <title>Speldalen - Playstation</title>
+        <link rel="stylesheet" style="text/css" href="./hemstyle.css" />
         <style type="text/css">
             body {
                 background-color:#FFFFFF;
@@ -15,7 +16,7 @@
                 clear:both;
             }
         </style>
-        <link rel="stylesheet" style="text/css" href="hemstyle.css" />
+
 
         <!--
         <script>
@@ -71,6 +72,7 @@
                 <article>
 
                     <?php
+                    
                     foreach ($games as $game) {
 
                         echo "<div class='productdiv'>";
