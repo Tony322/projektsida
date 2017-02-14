@@ -37,7 +37,7 @@ public function updateProduct($para) {
 }
 
 public function authUser() {
-     $model = new ProductModel();
+     $model = new adminModel();
 
      $username = $_POST['username'];
      $password = $_POST['password'];
