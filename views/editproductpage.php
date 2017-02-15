@@ -6,6 +6,7 @@
         <meta name="robots" content="noindex, nofollow"/>
         <meta name=“description” content="Speldalen - Köp senaste konsolspelen till playstation Wii U/Wii U i Borlänge till de senaste konsolerna"/>
         <title>Speldalen - Playstation</title>
+
         <link rel="stylesheet" type="text/css"  href="./hemstyle.css" />
         <style type="text/css">
             body {
@@ -16,6 +17,8 @@
                 clear:both;
             }
         </style>
+
+
     </head>
 
     <body>
@@ -47,38 +50,28 @@
 
             <main>
                 <article>
+                    
 
                     <?php
-                    echo "<a href='index.php?admin/logout'><button type='button'>Logga ut</button></a>";
-                    foreach ($games as $game) {
-
-                        $id = $game['id'];
-
-                        echo "<div class='productdiv'>";
-
-                        echo "<div class='productdivleft'>";
-                        echo "<img src='./bilder/{$game['categoryname']}/{$game['imgurl']}'>";
-                        echo "</div>";
-
-                        echo "<div class='productdivcenter'>";
-                        echo "<a href='index.php?products/name/{$game['name']}'>" . $game['name'] . '</a>';
-                        echo "</div>";
-
-                        echo "<div class='productdivright'>";
-                        echo "<a href='index.php?admin/edit/$id'><button type='button'>redigera</button></a>";
-                        echo "<a href='index.php?admin/deleteProduct/$id'><button type='button'>ta bort</button></a>";
-                        echo "</div>";
-
-                        echo "</div>";
-                    }
+                    echo '<form action="index.php?admin/updateProduct" name="update" method="POST">';
+                    echo '<input type="hidden" name="id" value="' . $game->id . '"> <br/>';
+                    echo '<input type="text" name="name" value="' . $game->name . '"> <br/>';
+                    echo '<textarea rows="4" cols="50" name="desc">' . $game->desc . '</textarea><br/>';
+                    echo '<input type="text" name="price" value="' . $game->price . '"><br/>';
+                    echo '<input type="text" name="category" value="' . $game->category . '"><br/>';
+                    echo '<input type="text" name="stock" value="' . $game->stock . '"><br/>';
+                    echo '<input type="text" name="imgurl" value="' . $game->imgurl . '"><br/>';
+                    echo '<input type="submit" value="Uppdatera">';
+                    echo '</form>';
                     ?>
+
                 </article>
             </main>
 
             <footer class="footer">
-<?php
-include('footer.html');
-?>
+                <?php
+                include('footer.html');
+                ?>
             </footer>
         </div>
 

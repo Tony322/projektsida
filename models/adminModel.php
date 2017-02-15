@@ -1,7 +1,7 @@
 <?php
 
-class adminModel
-{
+class adminModel {
+
     private $pdocon;
 
     public function __construct() {
@@ -10,16 +10,16 @@ class adminModel
 
     public function getAllGames() {
 
-            $querystr = "call h15tonve_getAllProducts()";
+        $querystr = "call h15tonve_getAllProducts()";
 
-            $query = $this->pdocon->prepare($querystr);
+        $query = $this->pdocon->prepare($querystr);
 
-            $query->execute();
+        $query->execute();
 
-            $games = $query->fetchAll();
+        $games = $query->fetchAll();
 
-            $this->pdocon = NULL;
-            return $games;
+        $this->pdocon = NULL;
+        return $games;
     }
 
     public function deleteProduct($id) {
@@ -33,6 +33,24 @@ class adminModel
         $this->pdocon = NULL;
     }
 
+    public function updateProduct($product) {
+
+        $querystr = "call h15tonve_updateProduct(?, ?, ?, ?, ?, ?, ?)";
+
+        $query = $this->pdocon->prepare($querystr);
+        $query->bindValue(1, $product->id, PDO::PARAM_INT);
+        $query->bindValue(2, $product->name, PDO::PARAM_STR);
+        $query->bindValue(3, $product->desc, PDO::PARAM_STR);
+        $query->bindValue(4, $product->category, PDO::PARAM_INT);
+        $query->bindValue(5, $product->price);
+        $query->bindValue(6, $product->stock, PDO::PARAM_INT);
+        $query->bindValue(7, $product->imgurl, PDO::PARAM_STR);
+
+        $query->execute();
+
+        $this->pdocon = NULL;
+    }
+
     public function setConnection() {
 
         try {
@@ -40,15 +58,15 @@ class adminModel
             $usr = 'rene';
             $pw = 'Eriksson';
 
-            $pdocon = new PDO($details, $usr, $pw);
+            $this->pdocon = new PDO($details, $usr, $pw);
+            
         } catch (PDOException $pdoexp) {
-            $pdocon = NULL;
+            $this->pdocon = NULL;
             throw new Exception('Databasfel!');
         }
-
-        $this->pdocon = $pdocon;
+        
     }
-    
+
     public function checkUser($username, $password) {
         try {
             $querystr = 'call h15tonve_authUser(?, ?)';
@@ -67,12 +85,12 @@ class adminModel
             $this->pdocon = NULL;
 
             return $games;
-        }
-        catch (PDOException $pdoexp){
+        } catch (PDOException $pdoexp) {
             $pdocon = NULL;
             throw new Exception('Databasfel!');
         }
     }
+
 }
 
 ?>

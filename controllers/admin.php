@@ -7,7 +7,9 @@
  * Time: 13:45
  */
 include_once './models/adminModel.php';
+include_once './models/ProductModel.php';
 include_once './views/ViewHelper.php';
+include_once './models/Product.php';
 
 class admin {
 
@@ -35,9 +37,9 @@ class admin {
         $this->all();
     }
 
-    public function temp() {
+    public function logout() {
         unset($_SESSION['user']);
-        echo 'tömde user session';
+        header("Location: index.php");
     }
 
     public function all() {
@@ -54,8 +56,49 @@ class admin {
         }
     }
 
-    public function updateProduct($para) {
-        
+    public function updateProduct() {
+        if ($this->user['loggedin'] === 1) {
+
+            $product = new Product();
+            $model = new adminModel();
+
+            $product->id = $_POST['id'];
+            $product->name = $_POST['name'];
+            $product->desc = $_POST['desc'];
+            $product->price = $_POST['price'];
+            $product->category = $_POST['category'];
+            $product->stock = $_POST['stock'];
+            $product->imgurl = $_POST['imgurl'];
+
+            $model->updateProduct($product);
+
+            $this->all();
+        } else {
+            echo 'Fuck off, du har inte access noob.';
+        }
+    }
+
+    public function edit($id) {
+        if ($this->user['loggedin'] === 1) {
+            $prodModel = new ProductModel();
+            $data = $prodModel->getGameById($id);
+            $product = new Product();
+
+
+            $product->id = $data[0]['id'];
+            $product->name = $data[0]['name'];
+            $product->desc = $data[0]['description'];
+            $product->price = $data[0]['price'];
+            $product->category = $data[0]['category'];
+            $product->stock = $data[0]['stock'];
+            $product->imgurl = $data[0]['imgurl'];
+
+            $viewhelper = new ViewHelper();
+            $viewhelper->assign('game', $product);
+            $viewhelper->display("editproductpage.php");
+        } else {
+            echo 'Fuck off, du har inte access noob.';
+        }
     }
 
     public function authUser() {
@@ -96,8 +139,12 @@ class admin {
         }
     }
 
-    public function login() {
-        include_once'./views/login.php';
+    public function login() { 
+        if ($this->user['loggedin'] === 0) {
+            include_once'./views/login.php';
+        } else {
+            $this->all();
+        }
     }
 
 }

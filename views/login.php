@@ -41,8 +41,7 @@
             <nav class="mainnav">
                 <ul class="breadcrumbs">
                     <li><a href="index.php?home">Hem /</a></li>
-                    <li><a href="index.php?products/categories">Logga in /</a></li>
-                    <li><a href="index.php?products/category/<?php echo ucfirst($games[0]['categoryname']); ?>"><?php echo ucfirst($games[0]['categoryname']); ?></a></li>
+                    <li><a href="index.php?login">Logga in /</a></li>
                 </ul>
             </nav>
 
