@@ -46,12 +46,10 @@
             </nav>
 
             <main>
-                <form action="index.php?admin/authUser" name="login" method="POST">
+                <form class="form-style" action="index.php?admin/authUser" name="login" method="POST">
                     <h1>Medlem</h1>
-                    Användarnamn:<br>
-                    <input type="text" name="username"/><br>
-                    Lösenord:<br>
-                    <input type="password" name="password"/><br>
+                    <input type="text" name="username" placeholder="Användarnamn"/><br>
+                    <input type="password" name="password" placeholder="Lösenord"/><br>
                     <input type="submit" value="Logga in"/><br>
                 </form>
             </main>
