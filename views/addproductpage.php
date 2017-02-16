@@ -6,6 +6,7 @@
         <meta name="robots" content="noindex, nofollow"/>
         <meta name=“description” content="Speldalen - Köp senaste konsolspelen till playstation Wii U/Wii U i Borlänge till de senaste konsolerna"/>
         <title>Speldalen - Playstation</title>
+
         <link rel="stylesheet" type="text/css"  href="./hemstyle.css" />
         <style type="text/css">
             body {
@@ -16,6 +17,8 @@
                 clear:both;
             }
         </style>
+
+
     </head>
 
     <body>
@@ -48,38 +51,34 @@
             <main>
                 <article>
 
+
                     <?php
-                    echo "<a href='index.php?admin/add'><button type='button'>Lägg till produkt</button></a>";
-                    echo "<a href='index.php?admin/logout'><button type='button'>Logga ut</button></a>";
-                    foreach ($games as $game) {
-
-                        $id = $game['id'];
-
-                        echo "<div class='productdiv'>";
-
-                        echo "<div class='productdivleft'>";
-                        echo "<img src='./bilder/{$game['categoryname']}/{$game['imgurl']}'>";
-                        echo "</div>";
-
-                        echo "<div class='productdivcenter'>";
-                        echo "<a href='index.php?products/name/{$game['name']}'>" . $game['name'] . '</a>';
-                        echo "</div>";
-
-                        echo "<div class='productdivright'>";
-                        echo "<a href='index.php?admin/edit/$id'><button type='button'>redigera</button></a>";
-                        echo "<a href='index.php?admin/deleteProduct/$id'><button type='button'>ta bort</button></a>";
-                        echo "</div>";
-
-                        echo "</div>";
-                    }
+                    echo '<strong>Lägg till ny produkt</strong>';
+                    echo '<form action="index.php?admin/addProduct" name="add" method="POST">';
+                    echo '<input type="text" name="name" value="" placeholder="Produktnamn"> <br/>';
+                    echo '<textarea rows="4" cols="50" name="desc" placeholder="Produktbeskrivning"></textarea><br/>';
+                    echo '<input type="text" name="price" value="" placeholder="Pris"><br/>';
+                    
+                    echo'<select name = "category" >';
+                    echo'<option value = "">Välj kategori</option>';
+                    echo' <option value = "1">Nintendo</option>';
+                    echo '<option value = "2">Xbox</option>';
+                    echo '<option value = "3">Playstation</option>';
+                    echo '</select> <br/>';
+                    
+                    echo '<input type = "text" name = "stock" value = "" placeholder="Antal i lager"><br/>';
+                    echo '<input type = "text" name = "imgurl" value = "" placeholder="bildens namn"><br/>';
+                    echo '<input type = "submit" value = "Lägg till">';
+                    echo '</form>';
                     ?>
+
                 </article>
             </main>
 
             <footer class="footer">
-<?php
-include('footer.html');
-?>
+                <?php
+                include('footer.html');
+                ?>
             </footer>
         </div>
 

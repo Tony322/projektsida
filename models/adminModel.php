@@ -33,6 +33,23 @@ class adminModel {
         $this->pdocon = NULL;
     }
 
+    public function addProduct($product) {
+
+        $querystr = "call h15tonve_addProduct(?, ?, ?, ?, ?, ?)";
+
+        $query = $this->pdocon->prepare($querystr);
+        $query->bindValue(1, $product->name, PDO::PARAM_STR);
+        $query->bindValue(2, $product->desc, PDO::PARAM_STR);
+        $query->bindValue(3, $product->category, PDO::PARAM_INT);
+        $query->bindValue(4, $product->price);
+        $query->bindValue(5, $product->stock, PDO::PARAM_INT);
+        $query->bindValue(6, $product->imgurl, PDO::PARAM_STR);
+
+        $query->execute();
+
+        $this->pdocon = NULL;
+    }
+
     public function updateProduct($product) {
 
         $querystr = "call h15tonve_updateProduct(?, ?, ?, ?, ?, ?, ?)";
@@ -59,12 +76,10 @@ class adminModel {
             $pw = 'Eriksson';
 
             $this->pdocon = new PDO($details, $usr, $pw);
-            
         } catch (PDOException $pdoexp) {
             $this->pdocon = NULL;
             throw new Exception('Databasfel!');
         }
-        
     }
 
     public function checkUser($username, $password) {

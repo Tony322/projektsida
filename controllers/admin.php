@@ -26,8 +26,25 @@ class admin {
         }
     }
 
-    public function addProduct($para) {
-        
+    public function addProduct() {
+        if ($this->user['loggedin'] === 1) {
+
+            $product = new Product();
+            $model = new adminModel();
+
+            $product->name = $_POST['name'];
+            $product->desc = $_POST['desc'];
+            $product->price = $_POST['price'];
+            $product->category = $_POST['category'];
+            $product->stock = $_POST['stock'];
+            $product->imgurl = $_POST['imgurl'];
+
+            $model->addProduct($product);
+
+            $this->all();
+        } else {
+            echo 'Fuck off, du har inte access noob.';
+        }
     }
 
     public function deleteProduct($id) {
@@ -35,25 +52,6 @@ class admin {
 
         $model->deleteProduct($id);
         $this->all();
-    }
-
-    public function logout() {
-        unset($_SESSION['user']);
-        header("Location: index.php");
-    }
-
-    public function all() {
-        if ($this->user['loggedin'] === 1) {
-
-            $model = new adminModel();
-            $games = $model->getAllGames();
-
-            $viewhelper = new ViewHelper();
-            $viewhelper->assign('games', $games);
-            $viewhelper->display("admin.php");
-        } else {
-            echo 'Fuck off, du har inte access noob.';
-        }
     }
 
     public function updateProduct() {
@@ -73,6 +71,37 @@ class admin {
             $model->updateProduct($product);
 
             $this->all();
+        } else {
+            echo 'Fuck off, du har inte access noob.';
+        }
+    }
+
+    public function add() {
+        if ($this->user['loggedin'] === 1) {
+
+            $viewhelper = new ViewHelper();
+            $viewhelper->display("addproductpage.php");
+        } else {
+            echo 'Fuck off, du har inte access noob.';
+        }
+    }
+
+    public function logout() {
+        if (isset($_SESSION['user'])) {
+            unset($_SESSION['user']);
+            header("Location: index.php");
+        }
+    }
+
+    public function all() {
+        if ($this->user['loggedin'] === 1) {
+
+            $model = new adminModel();
+            $games = $model->getAllGames();
+
+            $viewhelper = new ViewHelper();
+            $viewhelper->assign('games', $games);
+            $viewhelper->display("admin.php");
         } else {
             echo 'Fuck off, du har inte access noob.';
         }
@@ -139,7 +168,7 @@ class admin {
         }
     }
 
-    public function login() { 
+    public function login() {
         if ($this->user['loggedin'] === 0) {
             include_once'./views/login.php';
         } else {

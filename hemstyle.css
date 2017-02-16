@@ -96,12 +96,11 @@ border-collapse: collapse; border-spacing: 0;
 	border-radius: 8px;
 }
 
-main form h1 {
+.logininput form h1 {
 	text-align: center;
 }
 
-main input[type="text"],
-main input[type="password"] {
+.form-style input[type="text"], input[type="password"] {
 	border: none;
 	font-size: 16px;
 	height: auto;
@@ -111,7 +110,7 @@ main input[type="password"] {
 	color: #8a97a0;
 
 }
-main input[type="submit"] {
+.form-style input[type="submit"] {
 	padding: 10px 15px 10px 15px;
 	color: #000000;
 	background-color: #e7e7e7;
@@ -124,7 +123,7 @@ main input[type="submit"] {
 	margin-left: 10px;
 }
 
-main input[type="submit"]:hover {
+.form-style input[type="submit"]:hover {
 	background-color: #666666;
 }
 /*END LOGIN FORM*/
