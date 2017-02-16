@@ -61,8 +61,7 @@
             <nav class="mainnav">
                 <ul class="breadcrumbs">
                     <li><a href="index.php?home">Hem /</a></li>
-                    <li><a href="index.php?products/categories">Konsoler /</a></li>
-                    <li><a href="index.php?products/category/playstation">Playstation</a></li>
+                    <li><a href="index.php?">Sökresultat</a></li>
                 </ul>
             </nav>
 
