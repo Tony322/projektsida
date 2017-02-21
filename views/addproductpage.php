@@ -55,19 +55,18 @@
                     <?php
                     echo '<strong>Lägg till ny produkt</strong>';
                     echo '<form action="index.php?admin/addProduct" name="add" method="POST">';
-                    echo '<input type="text" name="name" value="" placeholder="Produktnamn"> <br/>';
-                    echo '<textarea rows="4" cols="50" name="desc" placeholder="Produktbeskrivning"></textarea><br/>';
-                    echo '<input type="text" name="price" value="" placeholder="Pris"><br/>';
+                    echo '<input type="text" name="name" value="" placeholder="Produktnamn" required> <br/>';
+                    echo '<textarea rows="4" cols="50" name="desc" placeholder="Produktbeskrivning" required></textarea><br/>';
+                    echo '<input type="text" name="price" value="" placeholder="Pris" required><br/>';
                     
                     echo'<select name = "category" >';
-                    echo'<option value = "">Välj kategori</option>';
                     echo' <option value = "1">Nintendo</option>';
                     echo '<option value = "2">Xbox</option>';
                     echo '<option value = "3">Playstation</option>';
                     echo '</select> <br/>';
                     
-                    echo '<input type = "text" name = "stock" value = "" placeholder="Antal i lager"><br/>';
-                    echo '<input type = "text" name = "imgurl" value = "" placeholder="bildens namn"><br/>';
+                    echo '<input type = "text" name = "stock" value = "" placeholder="Antal i lager" required><br/>';
+                    echo '<input type = "text" name = "imgurl" value = "" placeholder="bildens namn" required><br/>';
                     echo '<input type = "submit" value = "Lägg till">';
                     echo '</form>';
                     ?>

@@ -54,13 +54,13 @@
 
                     <?php
                     echo '<form action="index.php?admin/updateProduct" name="update" method="POST">';
-                    echo '<input type="hidden" name="id" value="' . $game->id . '"> <br/>';
-                    echo '<input type="text" name="name" value="' . $game->name . '"> <br/>';
-                    echo '<textarea rows="4" cols="50" name="desc">' . $game->desc . '</textarea><br/>';
-                    echo '<input type="text" name="price" value="' . $game->price . '"><br/>';
-                    echo '<input type="text" name="category" value="' . $game->category . '"><br/>';
-                    echo '<input type="text" name="stock" value="' . $game->stock . '"><br/>';
-                    echo '<input type="text" name="imgurl" value="' . $game->imgurl . '"><br/>';
+                    echo '<input type="hidden" name="id" value="' . $game->id . '" required> <br/>';
+                    echo '<input type="text" name="name" value="' . $game->name . '"required> <br/>';
+                    echo '<textarea rows="4" cols="50" name="desc" required>' . $game->desc . '</textarea><br/>';
+                    echo '<input type="text" name="price" value="' . $game->price . '" required><br/>';
+                    echo '<input type="text" name="category" value="' . $game->category . '" required><br/>';
+                    echo '<input type="text" name="stock" value="' . $game->stock . '" required><br/>';
+                    echo '<input type="text" name="imgurl" value="' . $game->imgurl . '" required><br/>';
                     echo '<input type="submit" value="Uppdatera">';
                     echo '</form>';
                     ?>
