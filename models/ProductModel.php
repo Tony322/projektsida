@@ -6,11 +6,11 @@ class ProductModel {
 
     public function getAllGames() {
         try {
-            $details = 'mysql:host=mards.se;dbname=webshop';
-            $usr = 'tony';
-            $pw = 'Vennberg';
+            $details = 'mysql:host=utb-mysql.du.se;dbname=db30';
+            $usr = 'db30';
+            $pw = 'FJJAcyMU';
 
-            $pdocon = new PDO($details, $usr, $pw);
+            $pdocon = new PDO($details, $usr, $pw, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 
 
             $querystr = "call h15tonve_getAllProducts()";
@@ -22,7 +22,7 @@ class ProductModel {
 
             $query->execute();
 
-            $games = $query->fetchAll();
+            $games = $query->fetchAll(PDO::FETCH_ASSOC);
             //
             $pdocon = NULL;
             return $games;
@@ -34,11 +34,11 @@ class ProductModel {
 
     public function getGamesByCategoryName($name) {
         try {
-            $details = 'mysql:host=mards.se;dbname=webshop';
-            $usr = 'tony';
-            $pw = 'Vennberg';
+            $details = 'mysql:host=utb-mysql.du.se;dbname=db30';
+            $usr = 'db30';
+            $pw = 'FJJAcyMU';
 
-            $pdocon = new PDO($details, $usr, $pw);
+            $pdocon = new PDO($details, $usr, $pw, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 
             $querystr = 'CALL h15tonve_getProductsByCategoryName(\'' . $name . '\')';
 
@@ -66,11 +66,11 @@ class ProductModel {
     public function getGameByName($name) {
         try {
 
-            $details = 'mysql:host=mards.se;dbname=webshop';
-            $usr = 'tony';
-            $pw = 'Vennberg';
+            $details = 'mysql:host=utb-mysql.du.se;dbname=db30';
+            $usr = 'db30';
+            $pw = 'FJJAcyMU';
 
-            $pdocon = new PDO($details, $usr, $pw);
+            $pdocon = new PDO($details, $usr, $pw, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
             $querystr = 'call h15tonve_getProductByName(\'' . $name . '\')';
 
 
@@ -101,11 +101,11 @@ class ProductModel {
             //Konvertera potentiell sträng till int för att query ska fungera.
             $id = intval($id);
             
-            $details = 'mysql:host=mards.se;dbname=webshop';
-            $usr = 'tony';
-            $pw = 'Vennberg';
+            $details = 'mysql:host=utb-mysql.du.se;dbname=db30';
+            $usr = 'db30';
+            $pw = 'FJJAcyMU';
 
-            $pdocon = new PDO($details, $usr, $pw);
+            $pdocon = new PDO($details, $usr, $pw, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 
             $querystr = 'CALL h15tonve_getProductById(\'' . $id . '\')';
 
@@ -131,11 +131,11 @@ class ProductModel {
 
     public function getUserById() {
         try {
-            $details = 'mysql:host=mards.se;dbname=webshop';
-            $usr = 'tony';
-            $pw = 'Vennberg';
+            $details = 'mysql:host=utb-mysql.du.se;dbname=db30';
+            $usr = 'db30';
+            $pw = 'FJJAcyMU';
 
-            $pdocon = new PDO($details, $usr, $pw);
+            $pdocon = new PDO($details, $usr, $pw, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
             $querystr = 'call h15tonve_getUserByUserId()';
 
             //Förbered frågan
@@ -161,11 +161,11 @@ class ProductModel {
     public function checkUser($username, $password) {
         try {
 
-            $details = 'mysql:host=mards.se;dbname=webshop';
-            $usr = 'tony';
-            $pw = 'Vennberg';
+            $details = 'mysql:host=utb-mysql.du.se;dbname=db30';
+            $usr = 'db30';
+            $pw = 'FJJAcyMU';
 
-            $pdocon = new PDO($details, $usr, $pw);
+            $pdocon = new PDO($details, $usr, $pw, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
             $querystr = 'call h15tonve_authUser(?, ?)';
 
             //Förbered frågan

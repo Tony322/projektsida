@@ -16,7 +16,7 @@ class adminModel {
 
         $query->execute();
 
-        $games = $query->fetchAll();
+        $games = $query->fetchAll(PDO::FETCH_ASSOC);
 
         $this->pdocon = NULL;
         return $games;
@@ -71,11 +71,12 @@ class adminModel {
     public function setConnection() {
 
         try {
-            $details = 'mysql:host=mards.se;dbname=webshop';
-            $usr = 'rene';
-            $pw = 'Eriksson';
+            $details = 'mysql:host=utb-mysql.du.se;dbname=db30';
+            $usr = 'db30';
+            $pw = 'FJJAcyMU';
+            
 
-            $this->pdocon = new PDO($details, $usr, $pw);
+            $this->pdocon = new PDO($details, $usr, $pw, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
         } catch (PDOException $pdoexp) {
             $this->pdocon = NULL;
             throw new Exception('Databasfel!');

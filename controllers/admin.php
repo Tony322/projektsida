@@ -28,20 +28,17 @@ class admin {
 
     public function addProduct() {
         if ($this->user['loggedin'] === 1) {
+        $product = new Product();
+        $model = new adminModel();
 
-            $product = new Product();
-            $model = new adminModel();
+        $product->name = $_POST['name'];
+        $product->desc = $_POST['desc'];
+        $product->price = $_POST['price'];
+        $product->category = $_POST['category'];
+        $product->stock = $_POST['stock'];
+        $product->imgurl = $_POST['imgurl'];
 
-            $product->name = $_POST['name'];
-            $product->desc = $_POST['desc'];
-            $product->price = $_POST['price'];
-            $product->category = $_POST['category'];
-            $product->stock = $_POST['stock'];
-            $product->imgurl = $_POST['imgurl'];
-
-            $model->addProduct($product);
-
-            $this->all();
+        $model->addProduct($product);
         } else {
             echo 'Fuck off, du har inte access noob.';
         }
@@ -49,28 +46,31 @@ class admin {
 
     public function deleteProduct($id) {
         $model = new adminModel();
-
-        $model->deleteProduct($id);
-        $this->all();
+        if(isset($_POST['id'])){
+            $id = $_POST['id'];
+            echo 'id post är satt.';
+            $model->deleteProduct($id);
+        }else
+        {
+            echo 'id post inte satt.';
+        }
     }
 
     public function updateProduct() {
         if ($this->user['loggedin'] === 1) {
 
-            $product = new Product();
-            $model = new adminModel();
+        $product = new Product();
+        $model = new adminModel();
 
-            $product->id = $_POST['id'];
-            $product->name = $_POST['name'];
-            $product->desc = $_POST['desc'];
-            $product->price = $_POST['price'];
-            $product->category = $_POST['category'];
-            $product->stock = $_POST['stock'];
-            $product->imgurl = $_POST['imgurl'];
+        $product->id = $_POST['id'];
+        $product->name = $_POST['name'];
+        $product->desc = $_POST['desc'];
+        $product->price = $_POST['price'];
+        $product->category = $_POST['category'];
+        $product->stock = $_POST['stock'];
+        $product->imgurl = $_POST['imgurl'];
 
-            $model->updateProduct($product);
-
-            $this->all();
+        $model->updateProduct($product);
         } else {
             echo 'Fuck off, du har inte access noob.';
         }
@@ -95,15 +95,22 @@ class admin {
 
     public function all() {
         if ($this->user['loggedin'] === 1) {
-
-            $model = new adminModel();
-            $games = $model->getAllGames();
-
             $viewhelper = new ViewHelper();
-            $viewhelper->assign('games', $games);
             $viewhelper->display("admin.php");
         } else {
             echo 'Fuck off, du har inte access noob.';
+        }
+    }
+
+    public function getProducts() {
+        if ($this->user['loggedin'] === 1) {
+            $model = new adminModel();
+
+            //Hämta alla produkter och gör om till json
+            $result = json_encode($model->getAllGames());
+            echo $result;
+        } else {
+            echo 'No access.';
         }
     }
 
